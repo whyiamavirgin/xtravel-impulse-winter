@@ -3,70 +3,49 @@ import { useTranslations } from "next-intl";
 
 const firstRow = [
     {
-        image: 'https://avatars.mds.yandex.net/i?id=70d4f752bd73f9113818422ac847c132_l-10995423-images-thumbs&n=13'
+        image: './images/IMG_3035.jpg'
     },
     {
-        image: "./images/photo_4_2024-09-12_01-09-15.jpg"
+        image: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg"
     },
     {
-        image: "https://static.tildacdn.com/tild3631-6561-4462-a232-623762366334/Broken_heart_Solto_H.JPG"
+        image: "./images/IMG_3032.jpg"
     },
     {
-        image: "https://vsegda-pomnim.com/uploads/posts/2022-04/1649124844_69-vsegda-pomnim-com-p-priroda-kirgizstana-foto-73.jpg"
+        image: "./images/IMG_3043.png"
     },
     {
-        image: "./images/photo_6_2024-09-12_01-09-15.jpg"
+        image: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200"
     },
     {
-        image: "https://www.cheval-daventure.com/photos/1800x1200/kirghizie-son-kul-lemilie-chaix-randonnee-cheval-daventure-11-4063.jpg"
+        image: "./images/IMG_3041.png"
     },
     {
-        image: "./images/photo_9_2024-09-12_01-09-15.jpg"
+        image: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200"
     },
     {
-        image: "https://kartinki.pics/pics/uploads/posts/2022-08/1659477759_3-kartinkin-net-p-ozero-alakol-kirgiziya-priroda-krasivo-fot-3.jpg"
+        image: "./images/IMG_3010.jpg"
     },
-    {
-        image: "https://ecotours.ru/assets/galleries/621/imgp6132-corr.jpg"
-    },
-    {
-        image: "./images/photo_8_2024-09-12_01-09-15.jpg"
-    }
 ]
 
 const secondRow = [
     {
-        image: "./images/photo_4_2024-09-12_01-09-15.jpg"
+        image: "./images/IMG_3044.png"
     },
     {
-        image: 'https://krots.top/uploads/posts/2021-11/1637027625_117-krot-info-p-gori-kirgizii-gori-krasivo-foto-128.jpg'
+        image: "./images/photo_2024-09-13_00-11-55.jpg"
     },
     {
-        image: "https://vsegda-pomnim.com/uploads/posts/2022-04/1650933436_1-vsegda-pomnim-com-p-gori-kirgizii-foto-1.png"
+        image: "./images/photo_2024-09-12_21-11-54.jpg"
     },
     {
-        image: "./images/photo_6_2024-09-12_01-09-15.jpg"
+        image: "./images/main.webp"
     },
     {
-        image: "https://i.pinimg.com/originals/29/99/88/299988f75c10e5d449debd2e572caefd.jpg"
+        image: "./images/IMG_3045.png"
     },
     {
-        image: "./images/photo_9_2024-09-12_01-09-15.jpg"
-    },
-    {
-        image: "https://photopole.ru/wp-content/uploads/kirgiziia-gory-dolina-arashan-23.webp"
-    },
-    {
-        image: "./images/photo_8_2024-09-12_01-09-15.jpg"
-    },
-    {
-        image: "https://avatars.mds.yandex.net/i?id=9ee232e8ac6bef2c305bedc225307c07_l-9834975-images-thumbs&n=13"
-    },
-    {
-        image: "https://avatars.mds.yandex.net/i?id=bb33f14e4f2246a5622caa95dabd8350_l-5670257-images-thumbs&n=13"
-    },
-    {
-        image: "./images/photo_4_2024-09-12_01-09-15.jpg"
+        image: "./images/IMG_2988.jpg"
     }
 ]
 

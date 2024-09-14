@@ -13,20 +13,22 @@ export function Navbar() {
     return(
         <header className="sticky top-0 z-20 bg-white/80 dark:bg-black/80 backdrop-blur-md">
             <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
-                <img 
-                    src={data.logoLight} 
-                    alt="Logo"
-                    width={60}
-                    height={60}
-                    className="dark:hidden"
-                />
-                <img 
-                    src={data.logoDark} 
-                    alt="Logo"
-                    width={60}
-                    height={60}
-                    className="hidden dark:block"
-                />
+                <Link target="_blank" href="https://xtravel.kg/" className="dark:hidden">
+                    <img 
+                        src={data.logoLight} 
+                        alt="Logo"
+                        width={60}
+                        height={60}
+                    />
+                </Link>
+                <Link target="_blank" href="https://xtravel.kg/" className="hidden dark:block">
+                    <img 
+                        src={data.logoDark} 
+                        alt="Logo"
+                        width={60}
+                        height={60}
+                    />
+                </Link>
                 <div className="flex items-center gap-1 md:gap-4">
                     <ThemeSwitch />
                     <LocaleSwitcherSelect />

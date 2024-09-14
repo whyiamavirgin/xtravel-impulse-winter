@@ -13,9 +13,9 @@ export function TourTitle() {
 
     return(
         <div className={`w-full h-svh flex place-content-center bg-no-repeat bg-cover bg-bottom bg-[url('https://img.goodfon.com/original/1920x1200/3/35/les-gory-zima-sneg-derevia-domik-noch-nebo-luna.jpg')]`}>
-            <div className="text-white flex flex-col gap-8 mt-[13%] items-center text-center">
+            <div className="text-white flex flex-col gap-8 mt-[28%] md:mt-[13%] items-center text-center">
                 <p className="text-4xl md:text-6xl font-bold">{data.titleEN}</p>
-                <div className="bg-black/30 mx-5 md:mx-0 backdrop-blur-md rounded-2xl px-4 py-2 max-w-max">
+                <div className="bg-black/10 md:bg-black/30 mx-5 md:mx-0 backdrop-blur-md rounded-2xl px-4 py-2 max-w-max">
                     <p className="text-stone-100 text-md md:text-lg">
                         {locale == "ru" && (
                             data.ru.titleText
@@ -34,7 +34,7 @@ export function TourTitle() {
                             <Chip 
                                 variant="dot"
                                 color="warning"
-                                className="text-white border-2 px-4 bg-black/30 border-black/5 backdrop-blur-md"
+                                className="text-white border-2 px-4 bg-black/10 md:bg-black/30 border-black/5 backdrop-blur-md"
                             >
                                 {locale == "ru" && (
                                     data.ru.chips.first
@@ -51,7 +51,7 @@ export function TourTitle() {
                             <Chip 
                                 variant="dot"
                                 color="warning"
-                                className="text-white border-2 px-4 bg-black/30 border-black/5 backdrop-blur-md"
+                                className="text-white border-2 px-4 bg-black/10 md:bg-black/30 border-black/5 backdrop-blur-md"
                             >
                                 {locale == "ru" && (
                                     data.ru.chips.second
@@ -68,7 +68,7 @@ export function TourTitle() {
                             <Chip 
                                 variant="dot"
                                 color="warning"
-                                className="text-white border-2 px-4 bg-black/30 border-black/5 backdrop-blur-md"
+                                className="text-white border-2 px-4 bg-black/10 md:bg-black/30 border-black/5 backdrop-blur-md"
                             >
                                 {locale == "ru" && (
                                     data.ru.chips.third

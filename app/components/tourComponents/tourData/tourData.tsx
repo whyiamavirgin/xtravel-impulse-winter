@@ -3,10 +3,10 @@ export const pageData = {
     logoDark: "https://xtravel.kg/wp-content/uploads/2024/03/2023-11-03_02-02-38-removebg-1.png",
     titleEN: "Impulse - Design Your Life",
     titleRU: "ИМПУЛЬСИВНАЯ СТИПЕНДИАЛЬНАЯ ПРОГРАММА",
-    tourCost: "1000$",
+    tourCost: "1200$",
     ru: {
         titleText: "Программа 'Импульс' – это не просто отдых, а комплексная программа, направленная на личностный рост и достижение новых высот.",
-        tourDates: "12 - 15 Августа",
+        tourDates: "30.01-02.02.2025",
         chips: {
             first: "Захватывающие приключения",
             second: "Глубокая работа над собой",
@@ -36,13 +36,19 @@ export const pageData = {
                 title: "Что входит в стоимость?",
                 answers: [
                     {
-                        text: "Размещение по прилету и перед вылетом"
+                        text: "Встреча/проводы"
                     },
                     {
-                        text: "Трансфер по программе тура"
+                        text: "Трансфер по программе"
                     },
                     {
-                        text: "Проживание 4 ночи и питание"
+                        text: "1 ночь в Бишкеке"
+                    },
+                    {
+                        text: "3 ночи в Чон-Кемин"
+                    },
+                    {
+                        text: "Питание"
                     },
                     {
                         text: "Гид"
@@ -54,7 +60,10 @@ export const pageData = {
                         text: "Беркут шоу"
                     },
                     {
-                        text: "Программа тренинга"
+                        text: "МК по приготовлению еды"
+                    },
+                    {
+                        text: "Программа импульс"
                     }
                 ]
             },
@@ -78,42 +87,53 @@ export const pageData = {
         ]
     },
     en: {
-        titleText: "This is not just an educational program, but an exciting journey for those who have already tasted success.",
-        tourDates: "August 12th - 15th",
+        titleText: "The 'Impulse' program is not just a vacation, but a comprehensive program aimed at personal growth and reaching new heights.",
+        tourDates: "30.01-02.02.2025",
         chips: {
-            first: "Places of power",
-            second: "A deep emotional experience",
-            third: "Forum groups"
+            first: "Exciting adventures",
+            second: "Deep work on yourself",
+            third: "Immersion in culture",
+            fourth: "A comfortable stay"
         },
         description: [
             {
-                header: "Life-changing experience",
-                text: "Participants share a deep emotional experience that transforms their thinking and outlook on life."
+                header: "Exciting adventures",
+                text: "Horseback riding along mountain trails, exploring the amazing world of feathered predators at the golden eagle show, as well as outdoor activities."
             },
             {
-                header: "Places of power",
-                text: "Immersion in the atmosphere of like-minded people in a significant place filled with powerful energy to consolidate the knowledge gained."
+                header: "Deep work on yourself",
+                text: "Unique trainings developed by professional coaches will help you unlock your potential, define life goals and find new sources of inspiration."
             },
             {
-                header: "Forum groups",
-                text: "A powerful method of personal growth and support for each other through confidential meetings. Master the principles of the forum and create communities that will lead you to development for more than 10 years."
+                header: "Immersion in culture",
+                text: "A master class on cooking the traditional Kyrgyz dish kaurdak will allow you not only to taste delicious food, but also to get to know local customs better."
             },
+            {
+                header: "A comfortable stay",
+                text: "Accommodation in a cozy ECO–friendly hotel, delicious and healthy food, caring staff - everything for your comfort."
+            }
         ],
         frequentlyAskedQuestions: [
             {
                 title: "What is included in the price?",
                 answers: [
                     {
-                        text: "Accommodation on arrival and before departure"
+                        text: "Meeting/seeing off"
                     },
                     {
-                        text: "Transfer according to the tour program"
+                        text: "Transfer according to the program"
                     },
                     {
-                        text: "Accommodation for 4 nights and meals"
+                        text: "1 night in Bishkek"
                     },
                     {
-                        text: "Guide"
+                        text: "3 nights in Chon-Kemin"
+                    },
+                    {
+                        text: "Food"
+                    },
+                    {
+                        text: "Гид"
                     },
                     {
                         text: "Horse riding"
@@ -122,7 +142,10 @@ export const pageData = {
                         text: "Golden Eagle show"
                     },
                     {
-                        text: "The training program"
+                        text: "Cooking master class"
+                    },
+                    {
+                        text: "The impulse program"
                     }
                 ]
             },
@@ -146,39 +169,50 @@ export const pageData = {
         ]
     },
     de: {
-        titleText: "Es ist nicht nur ein Bildungsprogramm, sondern eine spannende Reise für diejenigen, die bereits den Geschmack des Erfolgs kennengelernt haben.",
-        tourDates: "12. - 15. August",
+        titleText: "Das 'Impuls' programm ist nicht nur Erholung, sondern ein umfassendes Programm, das auf persönliches Wachstum und das Erreichen neuer Höhen abzielt.",
+        tourDates: "30.01-02.02.2025",
         chips: {
-            first: "Kraftorte",
-            second: "Tiefe emotionale Erfahrung",
-            third: "Forum-Gruppen"
+            first: "Spannende Abenteuer",
+            second: "Tiefes Arbeiten an sich selbst",
+            third: "Eintauchen in die Kultur",
+            fourth: "Komfortabler Aufenthalt"
         },
         description: [
             {
-                header: "Lebensverändernde Erfahrung",
-                text: "Die Teilnehmer erleben gemeinsam eine tiefe emotionale Erfahrung, die ihr Denken und ihre Lebensauffassungen verändert."
+                header: "Spannende Abenteuer",
+                text: "Reiten Sie auf Bergwegen, erkunden Sie die wunderbare Welt der gefiederten Raubtiere in der Steinadlershow und machen Sie sich aktiv in der Natur."
             },
             {
-                header: "Kraftorte",
-                text: "Tauchen Sie ein in die Atmosphäre Gleichgesinnter an einem bedeutenden Ort, der mit mächtiger Energie gefüllt ist, um das erworbene Wissen zu sichern."
+                header: "Tiefes Arbeiten an sich selbst",
+                text: "Einzigartige Schulungen, die von professionellen Coaches entwickelt wurden, helfen Ihnen, Ihr Potenzial auszuschöpfen, Lebensziele zu definieren und neue Inspirationsquellen zu finden."
             },
             {
-                header: "Forum-Gruppen",
-                text: "Eine kraftvolle Methode des persönlichen Wachstums und der Unterstützung von einander durch vertrauliche Treffen. Lernen Sie die Prinzipien des Forums kennen und erstellen Sie Communities, die Sie seit mehr als 10 Jahren zur Entwicklung führen."
+                header: "Eintauchen in die Kultur",
+                text: "Die Meisterklasse für die Zubereitung eines traditionellen kirgisischen Gerichts von Kaurdak ermöglicht es Ihnen, nicht nur leckeres Essen zu probieren, sondern auch die lokalen Bräuche näher kennenzulernen."
             },
+            {
+                header: "Komfortabler Aufenthalt",
+                text: "Unterkunft in einem gemütlichen ÖKO–Hotel, leckeres und gesundes Essen, fürsorgliches Personal - alles für Ihren Komfort."
+            }
         ],
         frequentlyAskedQuestions: [
             {
                 title: "Was ist im Preis enthalten?",
                 answers: [
                     {
-                        text: "Unterkunft bei Ankunft und vor Abflug"
+                        text: "Treffen/Termine"
                     },
                     {
-                        text: "Transfer im Programm der Tour"
+                        text: "Transfer nach Programm"
                     },
                     {
-                        text: "Unterkunft für 4 Nächte und Verpflegung"
+                        text: "1 nacht in Bischkek"
+                    },
+                    {
+                        text: "3 nächte in Chon-Kemin"
+                    },
+                    {
+                        text: "Nahrung"
                     },
                     {
                         text: "Reiseleiter"
@@ -190,7 +224,10 @@ export const pageData = {
                         text: "Steinadler-Show"
                     },
                     {
-                        text: "Das Trainingsprogramm"
+                        text: "Meisterklasse zum Kochen"
+                    },
+                    {
+                        text: "Impuls-Programm"
                     }
                 ]
             },
@@ -256,9 +293,9 @@ export const tourProgram = {
                     text: "Вечером — неформальное общение, свободное время и отдых."
                 }
             ],
-            photo1: "https://i.pinimg.com/736x/d8/90/f4/d890f47d1e77b8327770f78c672d55c3.jpg",
-            photo2: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg",
-            photo3: "./images/IMG_3043.png",
+            photo1: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200",
+            photo2: "./images/IMG_3043.png",
+            photo3: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg",
             photo4: "./images/IMG_3041.png"
         },
         {
@@ -270,7 +307,7 @@ export const tourProgram = {
                     text: "Утром вас ждут новые знания и тренинги, а после обеда — практическая часть."
                 },
                 {
-                    text: "Мы приготовим национальные киргизское блюдо на мастер-классе: каурдак."
+                    text: "Мы приготовим национальное киргизское блюдо на мастер-классе: каурдак."
                 },
                 {
                     text: "Этот день станет не только вкусным, но и насыщенным новыми впечатлениями и открытиями."
@@ -305,199 +342,171 @@ export const tourProgram = {
     en: [
         {
             day: 1,
-            date: "August 12th",
+            date: "30.01",
+            title: "The start of changes",
             description: [
                 {
-                    text: "At 8:45, we will gather the group and depart for Chon Kemin at 9:00. Along the way, our guide will introduce you to the culture, history and traditions of our country."
+                    text: "At 10:00 we leave Bishkek for the magical Chon Kemin."
                 },
                 {
-                    text: "Upon arrival at the cozy guest house, we will stay and relax for a while, after which we will have an exciting show with a golden eagle and a delicious lunch."
+                    text: "Upon arrival, you will find cozy accommodation, lunch and acquaintance with like-minded people."
                 },
                 {
-                    text: "Then we will get acquainted with the upcoming training program. Lunch and rest time are provided by the organizers."
+                    text: "After that, a horse ride through the snow—covered nature reserve to fully immerse yourself in nature and tune in to a new wave."
                 },
                 {
-                    text: "The day ended with a wonderful dinner and free time for communication and relaxation."
+                    text: "In the evening, the first step towards changes with our starting task."
                 }
             ],
-            photo1: "https://avatars.mds.yandex.net/i?id=70d4f752bd73f9113818422ac847c132_l-10995423-images-thumbs&n=13",
-            photo2: "https://static.tildacdn.com/tild3631-6561-4462-a232-623762366334/Broken_heart_Solto_H.JPG",
-            photo3: "https://vsegda-pomnim.com/uploads/posts/2022-04/1649124844_69-vsegda-pomnim-com-p-priroda-kirgizstana-foto-73.jpg",
-            photo4: "https://www.cheval-daventure.com/photos/1800x1200/kirghizie-son-kul-lemilie-chaix-randonnee-cheval-daventure-11-4063.jpg"
+            photo1: "https://a.d-cd.net/94AAAgJCqeA-1920.jpg",
+            photo2: "https://i.pinimg.com/originals/fb/d6/75/fbd675316d3563422cbea5383621d6f7.png",
+            photo3: "./images/IMG_2990.jpg",
+            photo4: "./images/IMG_3032.jpg"
         },
         {
             day: 2,
-            date: "August 13th",
+            date: "31.01",
+            title: "Deep learning and inspiration",
             description: [
                 {
-                    text: "Breakfast is waiting for us at the guest house at 8:00."
+                    text: "After breakfast, the first training session will begin, where you can focus on your goals and desires."
                 },
                 {
-                    text: "At 8:45, the gathering of the group begins, and at 9:00 we go on a trip to Son Kul."
+                    text: "After lunch, we immerse ourselves in the national culture with an exciting golden eagle show, and then we continue to study and discover new facets of ourselves."
                 },
                 {
-                    text: "On the way, we will drive along the scenic road through the Boomsky gorge and the Ortokoysky reservoir, enjoying magnificent views all the way to the pass."
-                },
-                {
-                    text: "By 12:30 we will arrive at the yurt camp, where we will have accommodation, lunch and the first block of training."
-                },
-                {
-                    text: "In the evening we will gather for dinner, and then we will enjoy gatherings around the campfire under the starry sky."
+                    text: "In the evening — informal communication, free time and rest."
                 }
             ],
-            photo1: "https://kartinki.pics/pics/uploads/posts/2022-08/1659477759_3-kartinkin-net-p-ozero-alakol-kirgiziya-priroda-krasivo-fot-3.jpg",
-            photo2: "https://ecotours.ru/assets/galleries/621/imgp6132-corr.jpg",
-            photo3: "https://krots.top/uploads/posts/2021-11/1637027625_117-krot-info-p-gori-kirgizii-gori-krasivo-foto-128.jpg",
-            photo4: "https://vsegda-pomnim.com/uploads/posts/2022-04/1650933436_1-vsegda-pomnim-com-p-gori-kirgizii-foto-1.png"
+            photo1: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200",
+            photo2: "./images/IMG_3043.png",
+            photo3: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg",
+            photo4: "./images/IMG_3041.png"
         },
         {
             day: 3,
-            date: "August 14th",
+            date: "01.02",
+            title: "The taste of life and development",
             description: [
                 {
-                    text: "Breakfast is waiting for us at 9:00."
+                    text: "New knowledge and trainings are waiting for you in the morning, and after lunch — the practical part."
                 },
                 {
-                    text: "The training will start at 10:00."
+                    text: "We will prepare a national Kyrgyz dish at the master class: kaurdak."
                 },
                 {
-                    text: "At 14:00 we will gather for lunch, after which we will go on a horse ride to the panoramic views."
+                    text: "This day will be not only delicious, but also full of new experiences and discoveries."
                 },
                 {
-                    text: "In the evening, we will have dinner, and then free time to relax and socialize."
+                    text: "The evening ended with a pleasant dinner and sincere conversations."
                 }
             ],
-            photo1: "https://i.pinimg.com/originals/29/99/88/299988f75c10e5d449debd2e572caefd.jpg",
-            photo2: "https://ecotours.ru/assets/galleries/621/imgp6132-corr.jpg",
-            photo3: "https://photopole.ru/wp-content/uploads/kirgiziia-gory-dolina-arashan-23.webp",
-            photo4: "https://avatars.mds.yandex.net/i?id=9ee232e8ac6bef2c305bedc225307c07_l-9834975-images-thumbs&n=13"
+            photo1: "./images/IMG_2991.jpg",
+            photo2: "./images/IMG_3010.jpg",
+            photo3: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200",
+            photo4: "./images/IMG_3035.jpg"
         },
         {
             day: 4,
-            date: "August 15th",
+            date: "02.02",
+            title: "Results and return to a new life",
             description: [
                 {
-                    text: "A delicious breakfast awaits us at 9:00."
+                    text: "After breakfast, we will summarize the results of the entire program and consolidate the knowledge gained."
                 },
                 {
-                    text: "At 10:00 a.m., the training will begin, which will help to unlock the potential and deepen knowledge."
-                },
-                {
-                    text: "At 14:00 we will gather for lunch, where we can enjoy local cuisine and discuss the impressions of the morning session."
-                },
-                {
-                    text: "Free time after lunch. Trek to ancient petroglyphs."
-                },
-                {
-                    text: "At 16:00 we leave for Bishkek, enjoying the picturesque views along the way and sharing our impressions."
-                },
-                {
-                    text: "Arrival in Bishkek is scheduled for 21:00"
+                    text: "After lunch, we will go to Bishkek, where you will have a final dinner and a hotel, or a transfer to the airport for those who are ready to return home refreshed."
                 }
             ],
-            photo1: "https://kartinki.pics/pics/uploads/posts/2022-08/1659477759_3-kartinkin-net-p-ozero-alakol-kirgiziya-priroda-krasivo-fot-3.jpg",
-            photo2: "https://ecotours.ru/assets/galleries/621/imgp6132-corr.jpg",
-            photo3: "https://krots.top/uploads/posts/2021-11/1637027625_117-krot-info-p-gori-kirgizii-gori-krasivo-foto-128.jpg",
-            photo4: "https://vsegda-pomnim.com/uploads/posts/2022-04/1650933436_1-vsegda-pomnim-com-p-gori-kirgizii-foto-1.png"
+            photo1: "./images/IMG_3044.png",
+            photo2: "./images/IMG_3045.png",
+            photo3: "./images/IMG_2992.jpg",
+            photo4: "https://i.pinimg.com/originals/26/b5/ae/26b5aeb0e779e099f0884ab788c278d0.jpg"
         }
     ],
     de: [
         {
             day: 1,
-            date: "12. August",
+            date: "30.01",
+            title: "Der Beginn des Wandels",
             description: [
                 {
-                    text: "Um 8:45 Uhr werden wir von der Gruppe abgeholt und um 9:00 Uhr nach Chon-Kemin gebracht. Auf dem Weg führt unser Reiseleiter Sie in die Kultur, Geschichte und Traditionen unseres Landes ein."
+                    text: "Um 10:00 Uhr fahren wir von Bischkek nach Magic Chon Kemin."
                 },
                 {
-                    text: "Nach der Ankunft im gemütlichen Gästehaus werden wir uns ein wenig ausruhen und eine faszinierende Show mit Steinadler und ein leckeres Mittagessen erwarten."
+                    text: "Bei Ihrer Ankunft erwartet Sie eine gemütliche Unterkunft, ein Mittagessen und die Bekanntschaft mit Gleichgesinnten."
                 },
                 {
-                    text: "Dann werden wir uns mit dem bevorstehenden Trainingsprogramm vertraut machen. Mittagessen und Ruhezeiten werden von den Veranstaltern bereitgestellt."
+                    text: "Nach einer Reittour durch das schneebedeckte Naturschutzgebiet, um vollständig in die Natur einzutauchen und sich auf eine neue Welle einzustellen."
                 },
                 {
-                    text: "Der Tag endete mit einem schönen Abendessen und einer freien Zeit zum Chatten und Entspannen."
+                    text: "Am Abend ist der erste Schritt zu Veränderungen mit unserer Startaufgabe."
                 }
             ],
-            photo1: "https://avatars.mds.yandex.net/i?id=70d4f752bd73f9113818422ac847c132_l-10995423-images-thumbs&n=13",
-            photo2: "https://static.tildacdn.com/tild3631-6561-4462-a232-623762366334/Broken_heart_Solto_H.JPG",
-            photo3: "https://vsegda-pomnim.com/uploads/posts/2022-04/1649124844_69-vsegda-pomnim-com-p-priroda-kirgizstana-foto-73.jpg",
-            photo4: "https://www.cheval-daventure.com/photos/1800x1200/kirghizie-son-kul-lemilie-chaix-randonnee-cheval-daventure-11-4063.jpg"
+            photo1: "https://a.d-cd.net/94AAAgJCqeA-1920.jpg",
+            photo2: "https://i.pinimg.com/originals/fb/d6/75/fbd675316d3563422cbea5383621d6f7.png",
+            photo3: "./images/IMG_2990.jpg",
+            photo4: "./images/IMG_3032.jpg"
         },
         {
             day: 2,
-            date: "13. August",
+            date: "31.01",
+            title: "Tiefes Lernen und Inspiration",
             description: [
                 {
-                    text: "Um 8:00 Uhr erwartet uns das Frühstück im Gästehaus."
+                    text: "Nach dem Frühstück beginnt die erste Trainingssitzung, in der Sie sich auf Ihre Ziele und Wünsche konzentrieren können."
                 },
                 {
-                    text: "Um 8:45 Uhr beginnt die Gruppe und um 9:00 Uhr machen wir eine Reise nach Son Cul."
+                    text: "Nach dem Mittagessen tauchen wir mit einer spektakulären Berkut-Show in die nationale Kultur ein und lernen weiter und entdecken neue Facetten von uns selbst."
                 },
                 {
-                    text: "Auf dem Weg fahren wir auf einer malerischen Straße durch die Boomer Schlucht und den Stausee von Ortho Tokoje und genießen die herrliche Aussicht bis zum Pass."
-                },
-                {
-                    text: "Um 12:30 Uhr werden wir im Jurtenlager ankommen, wo wir auf Unterkunft, Mittagessen und den ersten Trainingsblock warten."
-                },
-                {
-                    text: "Am Abend treffen wir uns zum Abendessen und genießen dann die Zusammenkünfte am Lagerfeuer unter dem Sternenhimmel."
+                    text: "Am Abend - informelle Kommunikation, Freizeit und Erholung."
                 }
             ],
-            photo1: "https://kartinki.pics/pics/uploads/posts/2022-08/1659477759_3-kartinkin-net-p-ozero-alakol-kirgiziya-priroda-krasivo-fot-3.jpg",
-            photo2: "https://ecotours.ru/assets/galleries/621/imgp6132-corr.jpg",
-            photo3: "https://krots.top/uploads/posts/2021-11/1637027625_117-krot-info-p-gori-kirgizii-gori-krasivo-foto-128.jpg",
-            photo4: "https://vsegda-pomnim.com/uploads/posts/2022-04/1650933436_1-vsegda-pomnim-com-p-gori-kirgizii-foto-1.png"
+            photo1: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200",
+            photo2: "./images/IMG_3043.png",
+            photo3: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg",
+            photo4: "./images/IMG_3041.png"
         },
         {
             day: 3,
-            date: "14. August",
+            date: "01.02",
+            title: "Geschmack des Lebens und Entwicklung",
             description: [
                 {
-                    text: "Um 9:00 Uhr erwartet uns das Frühstück."
+                    text: "Am Morgen warten neue Kenntnisse und Schulungen auf Sie und am Nachmittag ein praktischer Teil."
                 },
                 {
-                    text: "Ab 10:00 Uhr beginnt das Training."
+                    text: "Wir bereiten ein nationales kirgisisches Gericht in der Meisterklasse zu: Kaurdak."
                 },
                 {
-                    text: "Um 14:00 Uhr treffen wir uns zum Mittagessen, danach machen wir einen Ausflug zum Panoramablick."
+                    text: "Dieser Tag wird nicht nur lecker, sondern auch mit neuen Eindrücken und Entdeckungen gesättigt sein."
                 },
                 {
-                    text: "Am Abend erwartet uns ein Abendessen und dann freie Zeit zum Entspannen und Chatten."
+                    text: "Der Abend endete mit einem angenehmen Abendessen und gefühlvollen Gesprächen."
                 }
             ],
-            photo1: "https://i.pinimg.com/originals/29/99/88/299988f75c10e5d449debd2e572caefd.jpg",
-            photo2: "https://ecotours.ru/assets/galleries/621/imgp6132-corr.jpg",
-            photo3: "https://photopole.ru/wp-content/uploads/kirgiziia-gory-dolina-arashan-23.webp",
-            photo4: "https://avatars.mds.yandex.net/i?id=9ee232e8ac6bef2c305bedc225307c07_l-9834975-images-thumbs&n=13"
+            photo1: "./images/IMG_2991.jpg",
+            photo2: "./images/IMG_3010.jpg",
+            photo3: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200",
+            photo4: "./images/IMG_3035.jpg"
         },
         {
             day: 4,
-            date: "15. August",
+            date: "02.02",
+            title: "Ergebnisse und die Rückkehr zu einem neuen Leben",
             description: [
                 {
-                    text: "Um 9:00 Uhr erwartet Sie ein leckeres Frühstück."
+                    text: "Nach dem Frühstück werden wir das gesamte Programm zusammenfassen und das gewonnene Wissen festigen."
                 },
                 {
-                    text: "Um 10:00 Uhr beginnt ein Training, das Ihnen hilft, das Potenzial zu entdecken und Ihr Wissen zu vertiefen."
-                },
-                {
-                    text: "Um 14:00 Uhr treffen wir uns zum Mittagessen, wo wir lokale Gerichte genießen und die Eindrücke der morgendlichen Sitzung besprechen können."
-                },
-                {
-                    text: "Nach dem Mittagessen - freie Zeit. Spur zu den alten Petroglyphen."
-                },
-                {
-                    text: "Um 16:00 Uhr fahren wir nach Bischkek, genießen die malerische Aussicht auf der Straße und teilen unsere Eindrücke."
-                },
-                {
-                    text: "Die Ankunft in Bischkek ist für 21:00 Uhr geplant"
+                    text: "Nach dem Mittagessen fahren wir nach Bischkek, wo Sie das letzte Abendessen und das Hotel genießen können, oder ein Transfer zum Flughafen für diejenigen, die bereit sind, wieder nach Hause zu kommen."
                 }
             ],
-            photo1: "https://kartinki.pics/pics/uploads/posts/2022-08/1659477759_3-kartinkin-net-p-ozero-alakol-kirgiziya-priroda-krasivo-fot-3.jpg",
-            photo2: "https://ecotours.ru/assets/galleries/621/imgp6132-corr.jpg",
-            photo3: "https://krots.top/uploads/posts/2021-11/1637027625_117-krot-info-p-gori-kirgizii-gori-krasivo-foto-128.jpg",
-            photo4: "https://vsegda-pomnim.com/uploads/posts/2022-04/1650933436_1-vsegda-pomnim-com-p-gori-kirgizii-foto-1.png"
+            photo1: "./images/IMG_3044.png",
+            photo2: "./images/IMG_3045.png",
+            photo3: "./images/IMG_2992.jpg",
+            photo4: "https://i.pinimg.com/originals/26/b5/ae/26b5aeb0e779e099f0884ab788c278d0.jpg"
         }
     ],
 }

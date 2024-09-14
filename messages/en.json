@@ -50,6 +50,7 @@
     "tourCost": "The cost of the tour",
     "callRequest": "Request for a call",
     "callRequestTitle": "Enter your details and we will contact you as soon as possible!",
-    "tourGallery": "Tour Gallery"
+    "tourGallery": "Tour Gallery",
+    "rotateTitle": "This retreat is for you if you :"
   }
 }

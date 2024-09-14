@@ -6,6 +6,9 @@ import { pageData as data } from "./tourData/tourData"
 import { useLocale, useTranslations } from "next-intl"
 import { tourProgram } from "./tourData/tourData"
 import { TourGallery } from "./gallery"
+import WordRotate from "@/components/magicui/word-rotate"
+import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern";
+import { cn } from "@/lib/utils"
 
 
 export function TourMainBlock() {
@@ -15,7 +18,7 @@ export function TourMainBlock() {
 
     return(
         <div className="flex flex-col items-center py-16 gap-16">   
-            <div className="grid md:grid-cols-2 gap-20 w-[90%] md:w-[80%]">
+            <div className="grid md:grid-cols-2  gap-10 md:gap-20 w-[90%] md:w-[80%]">
                 <div className="flex flex-col gap-8 text-center md:text-left">
                     {locale == "ru" && (
                         <>
@@ -82,8 +85,8 @@ export function TourMainBlock() {
                                                 <p key={index} className="text-md text-stone-500 dark:text-stone-300">{item.text}</p>
                                             ))}
                                         </div>
-                                        <div className="grid grid-cols-2 gap-5">
-                                            <div className="flex flex-col gap-5">
+                                        <div className="grid grid-cols-2 gap-3 md:gap-5">
+                                            <div className="flex flex-col gap-3 md:gap-5">
                                                 <img 
                                                     src={tab.photo1} 
                                                     alt={tab.date} 
@@ -101,7 +104,7 @@ export function TourMainBlock() {
                                                     style={{ aspectRatio: "275/280", objectFit: "cover" }}
                                                 />
                                             </div>
-                                            <div className="flex flex-col gap-5">
+                                            <div className="flex flex-col gap-3 md:gap-5">
                                                 <img 
                                                     src={tab.photo3} 
                                                     alt={tab.date} 
@@ -238,7 +241,34 @@ export function TourMainBlock() {
                         ))}
                     </Tabs>
                 )}
-                <Divider />
+                {/* <Divider /> */}
+                <div className="my-10 md:my-15 flex flex-col gap-14 text-center">
+                    <p className="text-2xl md:text-4xl">
+                        {g('rotateTitle')}
+                    </p>
+                    {locale == "ru" && (
+                        <WordRotate
+                            duration={4000}
+                            className="text-lg md:text-xl text-[#FFB800] font-semibold"
+                            words={["Готовы изменить свою жизнь и выйти на новый уровень", "Хотите вдохновиться, перезагрузиться и обрести новые силы", "Желаете наполниться энергией и проработать важные для себя аспекты жизни"]}
+                        />
+                    )}
+                    {locale == "en" && (
+                        <WordRotate
+                            duration={4000}
+                            className="text-lg md:text-xl text-[#FFB800] font-semibold"
+                            words={["You are ready to change your life and reach a new level", "You want to be inspired, reboot and gain new strength", "You want to be filled with energy and work out important aspects of life for yourself"]}
+                        />
+                    )}
+                    {locale == "de" && (
+                        <WordRotate
+                            duration={4000}
+                            className="text-lg md:text-xl text-[#FFB800] font-semibold"
+                            words={["Sie sind bereit, Ihr Leben zu ändern und ein neues Level zu erreichen", "Sie möchten sich inspirieren lassen, neu starten und neue Kräfte gewinnen.", "Sie möchten sich mit Energie füllen und wichtige Aspekte des Lebens für sich selbst erarbeiten."]}
+                        />
+                    )}
+                </div>
+                {/* <Divider /> */}
                 <div className="my-10 md:my-15 text-center">
                     <p className="text-2xl md:text-4xl font-bold m-auto">{g('frequentlyAskedQuestions')}</p>
                     <div className="text-left">
@@ -300,27 +330,39 @@ export function TourMainBlock() {
                 </div>
                 <Divider />
                 <div className="my-10 md:my-16 h-[450px] hidden md:grid grid-cols-1 md:grid-cols-5 gap-10">
-                    <Card className="flex flex-col  col-span-1 justify-between p-4 text-center">
-                        <p className="text-xl">{g('tourName')}</p>
-                        <p>{g('tourDates')} : <Spacer />
-                            {locale == "ru" && (
-                                <span className="font-bold">
-                                    {data.ru.tourDates}
-                                </span>
+                <div className="relative flex w-full items-center justify-center overflow-hidden rounded-lg border border-black/5 bg-background md:shadow-xl">
+                        <div className="flex flex-col col-span-1 justify-between p-4 gap-[70px] text-center">
+                            <p>{g('tourName')} : <Spacer /> <span className="font-bold text-lg">{data.titleEN}</span> </p>
+                            <p>{g('tourDates')} : <Spacer />
+                                {locale == "ru" && (
+                                    <span className="font-bold text-lg">
+                                        {data.ru.tourDates}
+                                    </span>
+                                )}
+                                {locale == "en" && (
+                                    <span className="font-bold text-lg">
+                                        {data.en.tourDates}
+                                    </span>
+                                )}
+                                {locale == "de" && (
+                                    <span className="font-bold text-lg">
+                                        {data.de.tourDates}
+                                    </span>
+                                )}
+                            </p>
+                            <p>{g('tourCost')} : <Spacer /><span className="font-bold text-lg">{data.tourCost}</span></p>
+                        </div>
+                        <AnimatedGridPattern
+                            numSquares={10}
+                            maxOpacity={0.1}
+                            duration={3}
+                            repeatDelay={3}
+                            className={cn(
+                            "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
+                            "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12",
                             )}
-                            {locale == "en" && (
-                                <span className="font-bold">
-                                    {data.en.tourDates}
-                                </span>
-                            )}
-                            {locale == "de" && (
-                                <span className="font-bold">
-                                    {data.de.tourDates}
-                                </span>
-                            )}
-                        </p>
-                        <p>{g('tourCost')} : <Spacer /><span className="font-bold">{data.tourCost}</span></p>
-                    </Card>
+                        />
+                    </div>
                     <Card className="col-span-2">
                         <img 
                             src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/91517e69496063.5b83db2b2a1eb.jpg" 
@@ -338,7 +380,40 @@ export function TourMainBlock() {
                             <ProfileForm />
                     </Card>
                 </div>
-                <div className="mt-10 h-[450px] flex md:hidden">
+                <div className="mt-10  flex flex-col md:hidden gap-10">
+                    <div className="relative flex h-[500px] w-full items-center justify-center overflow-hidden rounded-lg border border-black/5 bg-background md:shadow-xl">
+                        <div className="flex flex-col col-span-1 justify-between p-4 gap-[70px] text-center">
+                            <p className="text-xl">{g('tourName')} : <Spacer /> <span className="font-bold">{data.titleEN}</span> </p>
+                            <p className="text-xl">{g('tourDates')} : <Spacer />
+                                {locale == "ru" && (
+                                    <span className="font-bold">
+                                        {data.ru.tourDates}
+                                    </span>
+                                )}
+                                {locale == "en" && (
+                                    <span className="font-bold">
+                                        {data.en.tourDates}
+                                    </span>
+                                )}
+                                {locale == "de" && (
+                                    <span className="font-bold">
+                                        {data.de.tourDates}
+                                    </span>
+                                )}
+                            </p>
+                            <p className="text-xl">{g('tourCost')} : <Spacer /><span className="font-bold">{data.tourCost}</span></p>
+                        </div>
+                        <AnimatedGridPattern
+                            numSquares={10}
+                            maxOpacity={0.1}
+                            duration={3}
+                            repeatDelay={3}
+                            className={cn(
+                            "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
+                            "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12",
+                            )}
+                        />
+                    </div>
                     <Card className="flex flex-col gap-5 md:gap-3 rounded-xl bg-[#FFB800] p-6 md:p-10">
                             <p className="text-2xl text-stone-950 font-bold">
                                 {g('callRequest')}
