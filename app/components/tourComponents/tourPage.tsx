@@ -366,7 +366,7 @@ export function TourMainBlock() {
                     <Card className="col-span-2">
                         <img 
                             src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/91517e69496063.5b83db2b2a1eb.jpg" 
-                            alt="" 
+                            alt="callMe" 
                             className="w-full h-full object-cover"
                         />
                     </Card>
