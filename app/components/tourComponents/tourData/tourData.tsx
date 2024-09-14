@@ -275,8 +275,8 @@ export const tourProgram = {
             ],
             photo1: "https://a.d-cd.net/94AAAgJCqeA-1920.jpg",
             photo2: "https://i.pinimg.com/originals/fb/d6/75/fbd675316d3563422cbea5383621d6f7.png",
-            photo3: "/images/IMG_2990.jpg",
-            photo4: "/images/IMG_3032.jpg"
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2990.JPG",
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3032.JPG"
         },
         {
             day: 2,
@@ -294,9 +294,9 @@ export const tourProgram = {
                 }
             ],
             photo1: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200",
-            photo2: "/images/IMG_3043.png",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3043.PNG",
             photo3: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg",
-            photo4: "/images/IMG_3041.png"
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3041.PNG"
         },
         {
             day: 3,
@@ -316,10 +316,10 @@ export const tourProgram = {
                     text: "Вечер завершится приятным ужином и душевными разговорами."
                 }
             ],
-            photo1: "/images/IMG_2991.jpg",
-            photo2: "/images/IMG_3010.jpg",
+            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2991.JPG",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3010.JPG",
             photo3: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200",
-            photo4: "/images/IMG_3035.jpg"
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3035.JPG"
         },
         {
             day: 4,
@@ -333,9 +333,9 @@ export const tourProgram = {
                     text: "После обеда отправимся в Бишкек, где вас ждет финальный ужин и отель, либо трансфер в аэропорт для тех, кто готов вернуться домой обновленным."
                 }
             ],
-            photo1: "/images/IMG_3044.png",
-            photo2: "/images/IMG_3045.png",
-            photo3: "/images/IMG_2992.jpg",
+            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG",
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2992.JPG",
             photo4: "https://i.pinimg.com/originals/26/b5/ae/26b5aeb0e779e099f0884ab788c278d0.jpg"
         }
     ],
@@ -360,8 +360,8 @@ export const tourProgram = {
             ],
             photo1: "https://a.d-cd.net/94AAAgJCqeA-1920.jpg",
             photo2: "https://i.pinimg.com/originals/fb/d6/75/fbd675316d3563422cbea5383621d6f7.png",
-            photo3: "/images/IMG_2990.jpg",
-            photo4: "/images/IMG_3032.jpg"
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2990.JPG",
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3032.JPG"
         },
         {
             day: 2,
@@ -379,9 +379,9 @@ export const tourProgram = {
                 }
             ],
             photo1: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200",
-            photo2: "/images/IMG_3043.png",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3043.PNG",
             photo3: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg",
-            photo4: "/images/IMG_3041.png"
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3041.PNG"
         },
         {
             day: 3,
@@ -401,10 +401,10 @@ export const tourProgram = {
                     text: "The evening ended with a pleasant dinner and sincere conversations."
                 }
             ],
-            photo1: "/images/IMG_2991.jpg",
-            photo2: "/images/IMG_3010.jpg",
+            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2991.JPG",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3010.JPG",
             photo3: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200",
-            photo4: "/images/IMG_3035.jpg"
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3035.JPG"
         },
         {
             day: 4,
@@ -418,9 +418,9 @@ export const tourProgram = {
                     text: "After lunch, we will go to Bishkek, where you will have a final dinner and a hotel, or a transfer to the airport for those who are ready to return home refreshed."
                 }
             ],
-            photo1: "/images/IMG_3044.png",
-            photo2: "/images/IMG_3045.png",
-            photo3: "/images/IMG_2992.jpg",
+            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG",
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2992.JPG",
             photo4: "https://i.pinimg.com/originals/26/b5/ae/26b5aeb0e779e099f0884ab788c278d0.jpg"
         }
     ],
@@ -445,8 +445,8 @@ export const tourProgram = {
             ],
             photo1: "https://a.d-cd.net/94AAAgJCqeA-1920.jpg",
             photo2: "https://i.pinimg.com/originals/fb/d6/75/fbd675316d3563422cbea5383621d6f7.png",
-            photo3: "/images/IMG_2990.jpg",
-            photo4: "/images/IMG_3032.jpg"
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2990.JPG",
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3032.JPG"
         },
         {
             day: 2,
@@ -464,9 +464,9 @@ export const tourProgram = {
                 }
             ],
             photo1: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200",
-            photo2: "/images/IMG_3043.png",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3043.PNG",
             photo3: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg",
-            photo4: "/images/IMG_3041.png"
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3041.PNG"
         },
         {
             day: 3,
@@ -486,10 +486,10 @@ export const tourProgram = {
                     text: "Der Abend endete mit einem angenehmen Abendessen und gefühlvollen Gesprächen."
                 }
             ],
-            photo1: "/images/IMG_2991.jpg",
-            photo2: "/images/IMG_3010.jpg",
+            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2991.JPG",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3010.JPG",
             photo3: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200",
-            photo4: "/images/IMG_3035.jpg"
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3035.JPG"
         },
         {
             day: 4,
@@ -503,9 +503,9 @@ export const tourProgram = {
                     text: "Nach dem Mittagessen fahren wir nach Bischkek, wo Sie das letzte Abendessen und das Hotel genießen können, oder ein Transfer zum Flughafen für diejenigen, die bereit sind, wieder nach Hause zu kommen."
                 }
             ],
-            photo1: "/images/IMG_3044.png",
-            photo2: "/images/IMG_3045.png",
-            photo3: "/images/IMG_2992.jpg",
+            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG",
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2992.JPG",
             photo4: "https://i.pinimg.com/originals/26/b5/ae/26b5aeb0e779e099f0884ab788c278d0.jpg"
         }
     ],

@@ -3,49 +3,49 @@ import { useTranslations } from "next-intl";
 
 const firstRow = [
     {
-        image: './images/IMG_3035.jpg'
+        image: 'https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3035.JPG'
     },
     {
         image: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg"
     },
     {
-        image: "./images/IMG_3032.jpg"
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3032.JPG"
     },
     {
-        image: "./images/IMG_3043.png"
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3043.PNG"
     },
     {
         image: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200"
     },
     {
-        image: "./images/IMG_3041.png"
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3041.PNG"
     },
     {
         image: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200"
     },
     {
-        image: "./images/IMG_3010.jpg"
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3010.JPG"
     },
 ]
 
 const secondRow = [
     {
-        image: "./images/IMG_3044.png"
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG"
     },
     {
-        image: "./images/photo_2024-09-13_00-11-55.jpg"
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-13_00-11-55.jpg"
     },
     {
-        image: "./images/photo_2024-09-12_21-11-54.jpg"
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-12_21-11-54.jpg"
     },
     {
-        image: "./images/main.webp"
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/main.webp"
     },
     {
-        image: "./images/IMG_3045.png"
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG"
     },
     {
-        image: "./images/IMG_2988.jpg"
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2988.JPG"
     }
 ]
 
