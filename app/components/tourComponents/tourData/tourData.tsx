@@ -3,15 +3,20 @@ export const pageData = {
     logoDark: "https://xtravel.kg/wp-content/uploads/2024/03/2023-11-03_02-02-38-removebg-1.png",
     titleEN: "Impulse - Design Your Life",
     titleRU: "ИМПУЛЬСИВНАЯ СТИПЕНДИАЛЬНАЯ ПРОГРАММА",
-    tourCost: "1200$",
+    tourCostSOM: "99000",
+    tourCostDL: "1200$",
     ru: {
-        titleText: "Программа 'Импульс' – это не просто отдых, а комплексная программа, направленная на личностный рост и достижение новых высот.",
+        titleText: "4-дневный ретрит в сердце природы Чон-Кемина!",
         tourDates: "30.01-02.02.2025",
         chips: {
             first: "Захватывающие приключения",
             second: "Глубокая работа над собой",
             third: "Погружение в культуру",
             fourth: "Комфортный отдых"
+        },
+        carouselText: {
+            title: "Ощути мощный импульс для личностного роста на ретрите",
+            description: "Мы приглашаем вас провести 4 дня в уникальном месте, где гармония природы встречается с глубокими тренингами, перезагрузкой и саморазвитием. Эта программа поможет вам не только восстановить силы, но и создать новый дизайн своей жизни."
         },
         description: [
             {
@@ -74,9 +79,6 @@ export const pageData = {
                         text: "Стоимость авиабилетов"
                     },
                     {
-                        text: "Трансфер Аэропорт - Бишкек"
-                    },
-                    {
                         text: "Личные расходы"
                     },
                     {
@@ -87,7 +89,7 @@ export const pageData = {
         ]
     },
     en: {
-        titleText: "The 'Impulse' program is not just a vacation, but a comprehensive program aimed at personal growth and reaching new heights.",
+        titleText: "A 4-day retreat in the heart of Jeong-Kemin nature!",
         tourDates: "30.01-02.02.2025",
         chips: {
             first: "Exciting adventures",
@@ -156,9 +158,6 @@ export const pageData = {
                         text: "The cost of air tickets"
                     },
                     {
-                        text: "Transfer Airport - Bishkek"
-                    },
-                    {
                         text: "Personal expenses"
                     },
                     {
@@ -169,7 +168,7 @@ export const pageData = {
         ]
     },
     de: {
-        titleText: "Das 'Impuls' programm ist nicht nur Erholung, sondern ein umfassendes Programm, das auf persönliches Wachstum und das Erreichen neuer Höhen abzielt.",
+        titleText: "Viertägiges-Retreat im Herzen der Natur - Tschon-Kemin",
         tourDates: "30.01-02.02.2025",
         chips: {
             first: "Spannende Abenteuer",
@@ -200,34 +199,31 @@ export const pageData = {
                 title: "Was ist im Preis enthalten?",
                 answers: [
                     {
-                        text: "Treffen/Termine"
+                        text: "Unterkunft in einem ECO Hotel"
                     },
                     {
-                        text: "Transfer nach Programm"
+                        text: "Vollpensione ( Frühstück, Mittag, Abendessen)"
                     },
                     {
-                        text: "1 nacht in Bischkek"
+                        text: "Transfer laut Plan"
                     },
                     {
-                        text: "3 nächte in Chon-Kemin"
+                        text: "Durchgehende Reiseleitung"
                     },
                     {
-                        text: "Nahrung"
+                        text: "Retreat- Programm"
                     },
                     {
-                        text: "Reiseleiter"
+                        text: "Reittour"
                     },
                     {
-                        text: "Reitspaziergang"
+                        text: "Jagd- Show"
                     },
                     {
-                        text: "Steinadler-Show"
+                        text: "Kochkurse"
                     },
                     {
-                        text: "Meisterklasse zum Kochen"
-                    },
-                    {
-                        text: "Impuls-Programm"
+                        text: "Flughafentransfers"
                     }
                 ]
             },
@@ -236,9 +232,6 @@ export const pageData = {
                 answers: [
                     {
                         text: "Flugkosten"
-                    },
-                    {
-                        text: "Transfer Flughafen - Bischkek"
                     },
                     {
                         text: "Persönliche Ausgaben"
@@ -428,19 +421,22 @@ export const tourProgram = {
         {
             day: 1,
             date: "30.01",
-            title: "Der Beginn des Wandels",
+            title: "Anfang der Transformation",
             description: [
                 {
-                    text: "Um 10:00 Uhr fahren wir von Bischkek nach Magic Chon Kemin."
+                    text: "Um 10 Uhr fahren wir aus Bischkek nach zauberhaften Tschon-Kemin los."
                 },
                 {
-                    text: "Bei Ihrer Ankunft erwartet Sie eine gemütliche Unterkunft, ein Mittagessen und die Bekanntschaft mit Gleichgesinnten."
+                    text: "Gleich bei der Ankunft können Sie Ihre gemütliche Zimmer beziehen."
                 },
                 {
-                    text: "Nach einer Reittour durch das schneebedeckte Naturschutzgebiet, um vollständig in die Natur einzutauchen und sich auf eine neue Welle einzustellen."
+                    text: "Dann erwartet Sie ein starkes Mittagessen, bei dem Sie andere Retreat - Teilnehmer kennenlernen können."
                 },
                 {
-                    text: "Am Abend ist der erste Schritt zu Veränderungen mit unserer Startaufgabe."
+                    text: "Nach dem Mittagspause ist ein Reittour durch den Winterpark geplant, was Ihnen Stellenbesetzungsmöglichkeit gibt."
+                },
+                {
+                    text: "Am Abend bekommen Sie die erste Aufgabe - der erste Schritt zur Veränderung."
                 }
             ],
             photo1: "https://a.d-cd.net/94AAAgJCqeA-1920.jpg",
@@ -451,16 +447,19 @@ export const tourProgram = {
         {
             day: 2,
             date: "31.01",
-            title: "Tiefes Lernen und Inspiration",
+            title: "Tiefes Lernen und Inspirationen",
             description: [
                 {
-                    text: "Nach dem Frühstück beginnt die erste Trainingssitzung, in der Sie sich auf Ihre Ziele und Wünsche konzentrieren können."
+                    text: "Nach dem Frühstück fängt die Training-Session an, wo man sich auf eigene Ziele und Wünsche konzentrieren kann."
                 },
                 {
-                    text: "Nach dem Mittagessen tauchen wir mit einer spektakulären Berkut-Show in die nationale Kultur ein und lernen weiter und entdecken neue Facetten von uns selbst."
+                    text: "Am Nachmittag sehen Sie eine Jagd-- Show mit einem Greifvogel.So eine Jagdform ist eine Tradition der Kirgisen. Die Jäger heißen Berkuttschi. "
                 },
                 {
-                    text: "Am Abend - informelle Kommunikation, Freizeit und Erholung."
+                    text: "Nachher entdecken Sie beim weiteren Training ganz andere Seiten an sich."
+                },
+                {
+                    text: "Am Abend - Freizeit und lockere Kommunikation."
                 }
             ],
             photo1: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200",
@@ -471,19 +470,16 @@ export const tourProgram = {
         {
             day: 3,
             date: "01.02",
-            title: "Geschmack des Lebens und Entwicklung",
+            title: "Lebensgefühl und Entwicklung",
             description: [
                 {
-                    text: "Am Morgen warten neue Kenntnisse und Schulungen auf Sie und am Nachmittag ein praktischer Teil."
+                    text: "Man fängt den Tag mit neuem Training an, aber am Nachmittag kommt man zu dem praktischen Teil:wir machen zusammen ein kirgisisches Nationalgericht - Kuurdak."
                 },
                 {
-                    text: "Wir bereiten ein nationales kirgisisches Gericht in der Meisterklasse zu: Kaurdak."
+                    text: "Das wird nicht nur ein schmackhafter aber auch ein eindrucksvoller Tag."
                 },
                 {
-                    text: "Dieser Tag wird nicht nur lecker, sondern auch mit neuen Eindrücken und Entdeckungen gesättigt sein."
-                },
-                {
-                    text: "Der Abend endete mit einem angenehmen Abendessen und gefühlvollen Gesprächen."
+                    text: "Am Abend ist ein köstliches Essen und angenehme Gesellschaft geplant."
                 }
             ],
             photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2991.JPG",
@@ -494,13 +490,13 @@ export const tourProgram = {
         {
             day: 4,
             date: "02.02",
-            title: "Ergebnisse und die Rückkehr zu einem neuen Leben",
+            title: "Ergebnisse und Return zu neuem Leben",
             description: [
                 {
-                    text: "Nach dem Frühstück werden wir das gesamte Programm zusammenfassen und das gewonnene Wissen festigen."
+                    text: "Nach dem Frühstück fassen wir zusammen."
                 },
                 {
-                    text: "Nach dem Mittagessen fahren wir nach Bischkek, wo Sie das letzte Abendessen und das Hotel genießen können, oder ein Transfer zum Flughafen für diejenigen, die bereit sind, wieder nach Hause zu kommen."
+                    text: "Am Nachmittag kommen wir nach Bischkek zurück, wo Sie Abschiedsessen und Hotel erwartet. ( Oder Transfer zum Flughafen, wenn man schon zu Return zu neuem Leben bereit ist)"
                 }
             ],
             photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG",
@@ -510,3 +506,45 @@ export const tourProgram = {
         }
     ],
 }
+
+export const CarouselData = [
+    {
+        image: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg"
+    },
+    {
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3032.JPG"
+    },
+    {
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3043.PNG"
+    },
+    {
+        image: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200"
+    },
+    {
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3041.PNG"
+    },
+    {
+        image: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200"
+    },
+    {
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3010.JPG"
+    },
+    {
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG"
+    },
+    {
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-13_00-11-55.jpg"
+    },
+    {
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-12_21-11-54.jpg"
+    },
+    {
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/main.webp"
+    },
+    {
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG"
+    },
+    {
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2988.JPG"
+    }
+]

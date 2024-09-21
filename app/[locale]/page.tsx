@@ -1,5 +1,6 @@
 import { TourTitle } from '../components/tourComponents/tourTitle';
 import { TourMainBlock } from '../components/tourComponents/tourPage';
+import { Socials } from '../components/tourComponents/socials';
  
 export default function HomePage() {
 
@@ -11,6 +12,7 @@ export default function HomePage() {
         <TourTitle />
         <TourMainBlock />
         {/* <TourDemo /> */}
+        <Socials />
     </div>
   )
 }

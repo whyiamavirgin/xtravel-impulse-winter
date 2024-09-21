@@ -9,6 +9,7 @@ import { TourGallery } from "./gallery"
 import WordRotate from "@/components/magicui/word-rotate"
 import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern";
 import { cn } from "@/lib/utils"
+import { MainPageCarousel } from "./carousel"
 
 
 export function TourMainBlock() {
@@ -17,8 +18,32 @@ export function TourMainBlock() {
     const g = useTranslations('General')
 
     return(
-        <div className="flex flex-col items-center py-16 gap-16">   
-            <div className="grid md:grid-cols-2  gap-10 md:gap-20 w-[90%] md:w-[80%]">
+        <div className="flex flex-col items-center py-16 gap-16">
+
+            {/* HIDDEN MAIN TITLE BLOCK */}
+
+            <div className="hidden md:grid-cols-2 gap-10 md:gap-20 w-[90%] md:w-[80%]">
+                <MainPageCarousel />
+                <div className="flex flex-col gap-4 text-center md:text-left">
+                    {locale == "ru" && (
+                        <>
+                            <p className="text-2xl">
+                                {data.ru.carouselText.title}
+                            </p>
+                            <p className="text-3xl md:text-4xl font-bold text-[#FFB800]">
+                                {data.titleEN}
+                            </p>
+                            <p>
+                                {data.ru.carouselText.description}
+                            </p>
+                        </>
+                    )}
+                </div>  
+            </div>
+
+            {/* TOUR DESCRIPTION BLOCK */}
+
+            <div className="grid md:grid-cols-2 gap-10 md:gap-20 w-[90%] md:w-[80%] items-center">
                 <div className="flex flex-col gap-8 text-center md:text-left">
                     {locale == "ru" && (
                         <>
@@ -63,13 +88,17 @@ export function TourMainBlock() {
                         </>
                     )}
                 </div>
-                <img 
+                {/* <img 
                     src="https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-13_00-11-55.jpg" 
                     alt="second"
                     className="w-[90%] m-auto rounded-2xl transition ease-in-out duration-250 hover:scale-105"
                     style={{ aspectRatio: "300/200" }} 
-                />
+                /> */}
+                <MainPageCarousel />
             </div>
+
+            {/* TOUR PROGRAM BY DAY BLOCK */}
+
             <p className="text-2xl md:text-4xl">{g('tourProgram')}</p>
             <div className="flex flex-col w-[95%] md:w-[80%]">
                 {locale === "ru" && (
@@ -137,6 +166,7 @@ export function TourMainBlock() {
                                     <CardBody className="grid grid-cols-1 md:grid-cols-2 gap-16">
                                         <div className="flex flex-col gap-6">
                                             <p className="text-4xl">{g('day')} {index + 1}</p>
+                                            <p className="text-2xl text-[#FFB800]">{tab.title}</p>
                                             {tab.description.map((item, index) => (
                                                 <p key={index} className="text-md text-stone-500 dark:text-stone-300">{item.text}</p>
                                             ))}
@@ -188,11 +218,12 @@ export function TourMainBlock() {
                 {locale === "de" && (
                     <Tabs className="gap-5 flex place-content-center" variant="solid" aria-label="Options"> 
                         {tourProgram.de.map((tab, index) => (
-                            <Tab className="m-auto" key={index} title={`${g('day')} ${index + 1}`}>
+                            <Tab className="m-auto" key={index} title={`${index + 1}. ${g('day')}`}>
                                 <Card className="shadow-none p-2 md:p-5 mb-5 md:mb-10">
                                     <CardBody className="grid grid-cols-1 md:grid-cols-2 gap-16">
                                         <div className="flex flex-col gap-6">
-                                            <p className="text-4xl">{g('day')} {index + 1}</p>
+                                            <p className="text-4xl">{index + 1}. {g('day')}</p>
+                                            <p className="text-2xl text-[#FFB800]">{tab.title}</p>
                                             {tab.description.map((item, index) => (
                                                 <p key={index} className="text-md text-stone-500 dark:text-stone-300">{item.text}</p>
                                             ))}
@@ -241,6 +272,9 @@ export function TourMainBlock() {
                         ))}
                     </Tabs>
                 )}
+
+                {/* ROTATING TEXT BLOCK */}
+
                 {/* <Divider /> */}
                 <div className="my-10 md:my-15 flex flex-col gap-14 text-center">
                     <p className="text-2xl md:text-4xl">
@@ -250,24 +284,45 @@ export function TourMainBlock() {
                         <WordRotate
                             duration={4000}
                             className="text-lg md:text-xl text-[#FFB800] font-semibold"
-                            words={["Готовы изменить свою жизнь и выйти на новый уровень", "Хотите вдохновиться, перезагрузиться и обрести новые силы", "Желаете наполниться энергией и проработать важные для себя аспекты жизни"]}
+                            words={[
+                                "Уникальная возможность провести время в гармонии с природой и собой", 
+                                "Тренинг, который направлен на полное переосмысление и проектирование вашей жизни", 
+                                "Погружение в киргизскую культуру: беркут-шоу и мастер-класс по традиционной кухне",
+                                "Возможность найти единомышленников и разделить опыт в комфортной обстановке",
+                                "Наполниться энергией природы"
+                            ]}
                         />
                     )}
                     {locale == "en" && (
                         <WordRotate
                             duration={4000}
                             className="text-lg md:text-xl text-[#FFB800] font-semibold"
-                            words={["You are ready to change your life and reach a new level", "You want to be inspired, reboot and gain new strength", "You want to be filled with energy and work out important aspects of life for yourself"]}
+                            words={[
+                                "A unique opportunity to spend time in harmony with nature and yourself",
+                                "A training that aims to completely rethink and design your life",
+                                "Immersion in Kyrgyz culture: berkut show and a master class in traditional cuisine",
+                                "An opportunity to find like-minded people and share the experience in a comfortable environment",
+                                "Be filled with energy nature"                            
+                            ]}
                         />
                     )}
                     {locale == "de" && (
                         <WordRotate
                             duration={4000}
                             className="text-lg md:text-xl text-[#FFB800] font-semibold"
-                            words={["Sie sind bereit, Ihr Leben zu ändern und ein neues Level zu erreichen", "Sie möchten sich inspirieren lassen, neu starten und neue Kräfte gewinnen.", "Sie möchten sich mit Energie füllen und wichtige Aspekte des Lebens für sich selbst erarbeiten."]}
+                            words={[
+                                "Eine einmalige Gelegenheit die Zeit im Gleichgewicht mit der Natur zu verbringen",
+                                "Ein Training,der auf Neuinterpretation und Entscheidungen gezielt ist",
+                                "Eine Begegnung mit der kirgisischen Kultur",
+                                "Eine Möglichkeit neue Menschen kennen zu lernen",
+                                "Poore Naturenergie"
+                            ]}
                         />
                     )}
                 </div>
+
+                {/* QUESTIONS BLOCK */}
+
                 {/* <Divider /> */}
                 <div className="my-10 md:my-15 text-center">
                     <p className="text-2xl md:text-4xl font-bold m-auto">{g('frequentlyAskedQuestions')}</p>
@@ -329,8 +384,11 @@ export function TourMainBlock() {
                     </div>
                 </div>
                 <Divider />
+
+                {/* CONTACT US BLOCK */}
+
                 <div className="my-10 md:my-16 h-[450px] hidden md:grid grid-cols-1 md:grid-cols-5 gap-10">
-                <div className="relative flex w-full items-center justify-center overflow-hidden rounded-lg border border-black/5 bg-background md:shadow-xl">
+                    <Card className="relative flex w-full items-center justify-center overflow-hidden rounded-lg md:shadow-xl">
                         <div className="flex flex-col col-span-1 justify-between p-4 gap-[70px] text-center">
                             <p>{g('tourName')} : <Spacer /> <span className="font-bold text-lg">{data.titleEN}</span> </p>
                             <p>{g('tourDates')} : <Spacer />
@@ -350,22 +408,12 @@ export function TourMainBlock() {
                                     </span>
                                 )}
                             </p>
-                            <p>{g('tourCost')} : <Spacer /><span className="font-bold text-lg">{data.tourCost}</span></p>
+                            <p>{g('tourCost')} : <Spacer /><span className="font-bold text-lg">{data.tourCostSOM} {g('som')}/{data.tourCostDL}</span></p>
                         </div>
-                        <AnimatedGridPattern
-                            numSquares={10}
-                            maxOpacity={0.1}
-                            duration={3}
-                            repeatDelay={3}
-                            className={cn(
-                            "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
-                            "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12",
-                            )}
-                        />
-                    </div>
+                    </Card>
                     <Card className="col-span-2">
                         <img 
-                            src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/91517e69496063.5b83db2b2a1eb.jpg" 
+                            src="https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2988.JPG" 
                             alt="callMe" 
                             className="w-full h-full object-cover"
                         />
@@ -380,8 +428,8 @@ export function TourMainBlock() {
                             <ProfileForm />
                     </Card>
                 </div>
-                <div className="mt-10  flex flex-col md:hidden gap-10">
-                    <div className="relative flex h-[500px] w-full items-center justify-center overflow-hidden rounded-lg border border-black/5 bg-background md:shadow-xl">
+                <div className="mt-10 flex flex-col md:hidden gap-10">
+                    <Card className="relative flex h-[500px] w-full items-center justify-center overflow-hidden rounded-lg border-none md:shadow-xl">
                         <div className="flex flex-col col-span-1 justify-between p-4 gap-[70px] text-center">
                             <p className="text-xl">{g('tourName')} : <Spacer /> <span className="font-bold">{data.titleEN}</span> </p>
                             <p className="text-xl">{g('tourDates')} : <Spacer />
@@ -401,19 +449,9 @@ export function TourMainBlock() {
                                     </span>
                                 )}
                             </p>
-                            <p className="text-xl">{g('tourCost')} : <Spacer /><span className="font-bold">{data.tourCost}</span></p>
+                            <p className="text-xl">{g('tourCost')} : <Spacer /><span className="font-bold">{data.tourCostSOM} {g('som')}/{data.tourCostDL}</span></p>
                         </div>
-                        <AnimatedGridPattern
-                            numSquares={10}
-                            maxOpacity={0.1}
-                            duration={3}
-                            repeatDelay={3}
-                            className={cn(
-                            "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
-                            "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12",
-                            )}
-                        />
-                    </div>
+                    </Card>
                     <Card className="flex flex-col gap-5 md:gap-3 rounded-xl bg-[#FFB800] p-6 md:p-10">
                             <p className="text-2xl text-stone-950 font-bold">
                                 {g('callRequest')}
@@ -424,6 +462,9 @@ export function TourMainBlock() {
                             <ProfileForm />
                     </Card>
                 </div>
+
+                {/* TOUR GALLERY BLOCK */}
+
                 <TourGallery />
             </div>
         </div>

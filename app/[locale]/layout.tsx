@@ -8,8 +8,8 @@ import { Footer } from '../components/footer';
 import { Navbar } from '../components/tourComponents/topNav';
 
 export const metadata: Metadata = {
-    title: "Travel",
-    description: "Travel with us",
+    title: "Impulse - Design Your Life",
+    description: "Impulse - Design Your Life",
   };
  
 export default async function LocaleLayout({
