@@ -22,7 +22,7 @@
     "viewAllTours": "Alle Touren anzeigen",
     "popularBlogPosts": "Beliebte artikel",
     "viewAllBlogPosts": "Alle artikel",
-    "readMore": "Genauer",
+    "readMore": "Weiter lesen",
     "aboutUs": "Über uns",
     "contactUs": "Kontaktieren Sie uns",
     "ourGallery": "Unsere Galerie",
@@ -52,6 +52,7 @@
     "callRequestTitle": "Geben Sie Ihre Daten ein und wir werden uns in Kürze mit Ihnen in Verbindung setzen!",
     "tourGallery": "Tour-Galerie",
     "rotateTitle": "Warum «Impulse- Design Your Life» ist Ihre Auswahl?",
-    "som": "som"
+    "som": "som",
+    "reviewsTitle": "Bewertungen unserer Gäste"
   }
 }

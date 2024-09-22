@@ -1,6 +1,6 @@
 "use client"
 
-import { Tabs, Tab, Card, CardBody, Divider, Spacer, Accordion, AccordionItem } from "@nextui-org/react"
+import { Tabs, Tab, Card, CardBody, Divider, Spacer, Accordion, AccordionItem, Button } from "@nextui-org/react"
 import { ProfileForm } from "./form"
 import { pageData as data } from "./tourData/tourData"
 import { useLocale, useTranslations } from "next-intl"
@@ -10,6 +10,8 @@ import WordRotate from "@/components/magicui/word-rotate"
 import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern";
 import { cn } from "@/lib/utils"
 import { MainPageCarousel } from "./carousel"
+import Link from "next/link"
+import { ReviewsBlock } from "./reviews"
 
 
 export function TourMainBlock() {
@@ -418,14 +420,24 @@ export function TourMainBlock() {
                             className="w-full h-full object-cover"
                         />
                     </Card>
-                    <Card className="col-span-2 flex flex-col gap-5 md:gap-3 rounded-xl bg-[#FFB800] p-6 md:p-10">
-                            <p className="text-2xl text-stone-950 font-bold">
+                    <Card className="col-span-2 flex flex-col justify-between text-center gap-5 md:gap-3 rounded-xl bg-[#FFB800] p-6 md:p-10">
+                            <p className="text-3xl text-stone-950 font-bold">
                                 {g('callRequest')}
                             </p>
-                            <p className="text-md text-stone-800">
+                            <p className="text-2xl text-stone-800">
                                 {g('callRequestTitle')}
                             </p>
-                            <ProfileForm />
+                            <Link
+                                href="https://b24-wzkh1r.bitrix24site.ru/crm_form_vapyx/"
+                                target="_blank"
+                                className="w-full text-center"
+                            >
+                                <Button
+                                    className="bg-stone-950 hover:bg-stone-800 w-full text-white"
+                                >
+                                    {g('callMe')}
+                                </Button>
+                            </Link>
                     </Card>
                 </div>
                 <div className="mt-10 flex flex-col md:hidden gap-10">
@@ -452,15 +464,32 @@ export function TourMainBlock() {
                             <p className="text-xl">{g('tourCost')} : <Spacer /><span className="font-bold">{data.tourCostSOM} {g('som')}/{data.tourCostDL}</span></p>
                         </div>
                     </Card>
-                    <Card className="flex flex-col gap-5 md:gap-3 rounded-xl bg-[#FFB800] p-6 md:p-10">
+                    <Card className="flex flex-col gap-5 md:gap-3 justify-between text-center rounded-xl bg-[#FFB800] p-6 md:p-10">
                             <p className="text-2xl text-stone-950 font-bold">
                                 {g('callRequest')}
                             </p>
                             <p className="text-md text-stone-800">
                                 {g('callRequestTitle')}
                             </p>
-                            <ProfileForm />
+                            <Link
+                                href="https://b24-wzkh1r.bitrix24site.ru/crm_form_vapyx/"
+                                target="_blank"
+                                className="w-full text-center"
+                            >
+                                <Button
+                                    className="bg-stone-950 hover:bg-stone-800 w-full text-white"
+                                >
+                                    {g('callMe')}
+                                </Button>
+                            </Link>
                     </Card>
+                </div>
+
+                {/* REVIEWS BLOCK */}
+
+                <div className="my-10 md:my-15 text-center">
+                    <p className="text-2xl md:text-4xl font-bold m-auto">{g('reviewsTitle')}</p>
+                    <ReviewsBlock />
                 </div>
 
                 {/* TOUR GALLERY BLOCK */}

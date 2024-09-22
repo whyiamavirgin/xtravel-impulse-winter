@@ -22,7 +22,7 @@
     "viewAllTours": "Просмотреть все туры",
     "popularBlogPosts": "Популярные посты",
     "viewAllBlogPosts": "Все посты",
-    "readMore": "Подробнее",
+    "readMore": "Читать дальше",
     "aboutUs": "О нас",
     "contactUs": "Связаться с нами",
     "ourGallery": "Наша галерея",
@@ -48,10 +48,11 @@
     "tourName": "Название тура",
     "tourDates": "Даты тура",
     "tourCost": "Стоимость тура",
-    "callRequest": "Заявка на звонок",
-    "callRequestTitle": "Введите свои данные и мы свяжемся с вами в самое ближайшее время!",
+    "callRequest": "Готовы к новым импульсам?",
+    "callRequestTitle": "Свяжитесь с нами для бронирования и дополнительной информации!",
     "tourGallery": "Галерея тура",
     "rotateTitle": "Почему «Impulse - Design Your Life» это ваш выбор?",
-    "som": "Сом"
+    "som": "сом",
+    "reviewsTitle": "Отзывы наших гостей"
   }
 }
