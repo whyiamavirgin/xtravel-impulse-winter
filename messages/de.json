@@ -42,7 +42,7 @@
     "404Oops": "OOPS",
     "404Home": "Zurück zur Startseite",
     "404RandomCatFact": "Eine zufällige Tatsache über Katzen",
-    "tourProgram": "Tour-Programm",
+    "tourProgram": "Reiseprogramm",
     "day": "Tag",
     "frequentlyAskedQuestions": "Häufig gestellte Fragen",
     "tourName": "Name der Tour",
@@ -50,8 +50,8 @@
     "tourCost": "Tourkosten",
     "callRequest": "Anrufantrag",
     "callRequestTitle": "Geben Sie Ihre Daten ein und wir werden uns in Kürze mit Ihnen in Verbindung setzen!",
-    "tourGallery": "Tour-Galerie",
-    "rotateTitle": "Warum «Impulse- Design Your Life» ist Ihre Auswahl?",
+    "tourGallery": "Fotogalerie der Tour",
+    "rotateTitle": "Warum «Impulse- Design Your Life» ist Ihre Auswahl!",
     "som": "som",
     "reviewsTitle": "Bewertungen unserer Gäste"
   }

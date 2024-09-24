@@ -23,7 +23,7 @@ export function ReviewsBlock() {
             plugins={
                 [
                     Autoplay({
-                        delay: 6000
+                        delay: 3000
                     }) as any
                 ]
             }
@@ -59,7 +59,7 @@ export function ReviewsBlock() {
                                         <DialogTrigger className="w-full h-full text-white bg-[#FFB800] hover:cursor-pointer hover:bg-opacity-80 py-2 rounded-xl transition ease-in-out duration-250">
                                             {g('readMore')}
                                         </DialogTrigger>
-                                        <DialogContent className="p-0 rounded-2xl w-[90%] md:w-full h-[90%] md:h-min">
+                                        <DialogContent className="p-0 rounded-2xl w-[90%] md:w-full h-[90%]">
                                             <DialogHeader>
                                                 <img 
                                                     src={item.photo}

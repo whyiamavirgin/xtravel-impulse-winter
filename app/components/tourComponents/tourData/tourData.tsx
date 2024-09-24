@@ -186,12 +186,12 @@ export const pageData = {
                 text: "Einzigartige Schulungen, die von professionellen Coaches entwickelt wurden, helfen Ihnen, Ihr Potenzial auszuschöpfen, Lebensziele zu definieren und neue Inspirationsquellen zu finden."
             },
             {
-                header: "Eintauchen in die Kultur",
-                text: "Die Meisterklasse für die Zubereitung eines traditionellen kirgisischen Gerichts von Kaurdak ermöglicht es Ihnen, nicht nur leckeres Essen zu probieren, sondern auch die lokalen Bräuche näher kennenzulernen."
+                header: "Eintauch in die Kultur",
+                text: "Kochkurs : man macht ein  kirgisisches Nationalgericht - Kuurdak. Da kann man nicht nur etwas köstliches probieren, sondern auch mehr über Bräuche erfahren."
             },
             {
-                header: "Komfortabler Aufenthalt",
-                text: "Unterkunft in einem gemütlichen ÖKO–Hotel, leckeres und gesundes Essen, fürsorgliches Personal - alles für Ihren Komfort."
+                header: "Komfortabler Aufenthalt ",
+                text: "Unterkunft in einem gemütlichen EKO Hotel,gutes Essen,freundlicher Service - das ist alles für Ihren Komfort."
             }
         ],
         frequentlyAskedQuestions: [
@@ -231,7 +231,7 @@ export const pageData = {
                 title: "Was ist nicht im Preis inbegriffen?",
                 answers: [
                     {
-                        text: "Flugkosten"
+                        text: "Flugkarten"
                     },
                     {
                         text: "Persönliche Ausgaben"
