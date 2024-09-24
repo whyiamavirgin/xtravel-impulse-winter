@@ -23,7 +23,7 @@ export function Footer() {
     return(
         <footer className="bg-black text-white py-6 px-1 md:px-10">
             <div className="container md:mx-auto flex flex-col gap-10 md:gap-0 md:flex-row md:justify-between md:items-center">
-                <Link target="_blank" href="https://xtravel.kg/">&copy; 2024 <span className="text-[#FFB800]">XTRAVEL</span>. All rights reserved.</Link>
+                <Link target="_blank" href="https://xtravel.kg/">&copy; 2024 <span className="text-[#FFB800]">XTRAVEL</span>. Все права защищены.</Link>
             </div>
         </footer>
     )

@@ -266,10 +266,10 @@ export const tourProgram = {
                     text: "Вечером — первый шаг к изменениям с нашим стартовым заданием."
                 }
             ],
-            photo1: "https://a.d-cd.net/94AAAgJCqeA-1920.jpg",
-            photo2: "https://i.pinimg.com/originals/fb/d6/75/fbd675316d3563422cbea5383621d6f7.png",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2990.JPG",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3032.JPG"
+            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:45:32.jpg",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:46:11.jpg",
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:44:37.jpg",
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/2024-09-24%2010.41.41.jpg"
         },
         {
             day: 2,
@@ -328,7 +328,7 @@ export const tourProgram = {
             ],
             photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG",
             photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2992.JPG",
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:47:08.jpg",
             photo4: "https://i.pinimg.com/originals/26/b5/ae/26b5aeb0e779e099f0884ab788c278d0.jpg"
         }
     ],
@@ -351,10 +351,10 @@ export const tourProgram = {
                     text: "In the evening, the first step towards changes with our starting task."
                 }
             ],
-            photo1: "https://a.d-cd.net/94AAAgJCqeA-1920.jpg",
-            photo2: "https://i.pinimg.com/originals/fb/d6/75/fbd675316d3563422cbea5383621d6f7.png",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2990.JPG",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3032.JPG"
+            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:45:32.jpg",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:46:11.jpg",
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:44:37.jpg",
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/2024-09-24%2010.41.41.jpg"
         },
         {
             day: 2,
@@ -413,7 +413,7 @@ export const tourProgram = {
             ],
             photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG",
             photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2992.JPG",
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:47:08.jpg",
             photo4: "https://i.pinimg.com/originals/26/b5/ae/26b5aeb0e779e099f0884ab788c278d0.jpg"
         }
     ],
@@ -439,10 +439,10 @@ export const tourProgram = {
                     text: "Am Abend bekommen Sie die erste Aufgabe - der erste Schritt zur Veränderung."
                 }
             ],
-            photo1: "https://a.d-cd.net/94AAAgJCqeA-1920.jpg",
-            photo2: "https://i.pinimg.com/originals/fb/d6/75/fbd675316d3563422cbea5383621d6f7.png",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2990.JPG",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3032.JPG"
+            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:45:32.jpg",
+            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:46:11.jpg",
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:44:37.jpg",
+            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/2024-09-24%2010.41.41.jpg"
         },
         {
             day: 2,
@@ -501,7 +501,7 @@ export const tourProgram = {
             ],
             photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG",
             photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2992.JPG",
+            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:47:08.jpg",
             photo4: "https://i.pinimg.com/originals/26/b5/ae/26b5aeb0e779e099f0884ab788c278d0.jpg"
         }
     ],
@@ -512,7 +512,7 @@ export const CarouselData = [
         image: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3032.JPG"
+        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/2024-09-24%2010.41.41.jpg"
     },
     {
         image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3043.PNG"

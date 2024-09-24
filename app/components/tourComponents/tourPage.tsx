@@ -415,7 +415,7 @@ export function TourMainBlock() {
                     </Card>
                     <Card className="col-span-2">
                         <img 
-                            src="https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2988.JPG" 
+                            src="https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:47:08.jpg" 
                             alt="callMe" 
                             className="w-full h-full object-cover"
                         />
