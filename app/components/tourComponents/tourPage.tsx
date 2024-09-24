@@ -499,17 +499,45 @@ export function TourMainBlock() {
                             <p className="text-md text-stone-800">
                                 {g('callRequestTitle')}
                             </p>
-                            <Link
+                            {locale == "ru" && (
+                                <Link
                                 href="https://b24-wzkh1r.bitrix24site.ru/crm_form_vapyx/"
-                                target="_blank"
-                                className="w-full text-center"
-                            >
-                                <Button
-                                    className="bg-stone-950 hover:bg-stone-800 w-full text-white"
+                                    target="_blank"
+                                    className="w-full text-center"
                                 >
-                                    {g('callMe')}
-                                </Button>
-                            </Link>
+                                    <Button
+                                        className="bg-stone-950 hover:bg-stone-800 w-full text-white"
+                                    >
+                                        {g('callMe')}
+                                    </Button>
+                                </Link>
+                            )}
+                           {locale == "en" && (
+                                <Link
+                                href="https://b24-wzkh1r.bitrix24site.ru/crm_form_p87ky/"
+                                    target="_blank"
+                                    className="w-full text-center"
+                                >
+                                    <Button
+                                        className="bg-stone-950 hover:bg-stone-800 w-full text-white"
+                                    >
+                                        {g('callMe')}
+                                    </Button>
+                                </Link>
+                            )}
+                            {locale == "de" && (
+                                <Link
+                                href="https://b24-wzkh1r.bitrix24site.ru/crm_form_dhorp/"
+                                    target="_blank"
+                                    className="w-full text-center"
+                                >
+                                    <Button
+                                        className="bg-stone-950 hover:bg-stone-800 w-full text-white"
+                                    >
+                                        {g('callMe')}
+                                    </Button>
+                                </Link>
+                            )} 
                     </Card>
                 </div>
 
