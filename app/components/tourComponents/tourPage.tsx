@@ -543,7 +543,7 @@ export function TourMainBlock() {
 
                 {/* REVIEWS BLOCK */}
 
-                <div className="my-10 md:my-15 text-center">
+                <div className="my-10 md:my-15">
                     <p className="text-2xl md:text-4xl font-bold m-auto">{g('reviewsTitle')}</p>
                     <ReviewsBlock />
                 </div>

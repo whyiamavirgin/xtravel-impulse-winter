@@ -215,8 +215,10 @@ export function ReviewsBlock() {
                     ))}
                 </CarouselContent>
             )}
-            <CarouselPrevious className="hidden md:flex" />
-            <CarouselNext className="hidden md:flex" />
+            <div className="mt-6">
+                <CarouselPrevious />
+                <CarouselNext />
+            </div>
         </Carousel>
     )
 }
