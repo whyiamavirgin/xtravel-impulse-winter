@@ -27,7 +27,7 @@ export function ReviewsBlock() {
                     }) as any
                 ]
             }
-            className="w-full mt-10 md:mt-16"
+            className="w-full mt-10 md:mt-16 text-left"
         >
             {locale == "ru" && (
                 <CarouselContent className="">

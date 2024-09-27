@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils"
 import { MainPageCarousel } from "./carousel"
 import Link from "next/link"
 import { ReviewsBlock } from "./reviews"
+import { EspaExtended } from "@/app/ui/fonts"
 
 
 export function TourMainBlock() {
@@ -51,10 +52,10 @@ export function TourMainBlock() {
                         <>
                             {data.ru.description.map((item, index) => (
                                 <div key={index}>
-                                    <p className="text-2xl font-bold text-[#FFB800]">
+                                    <p className="text-2xl md:text-3xl font-bold text-[#FFB800]">
                                         {item.header}
                                     </p>
-                                    <p className="md:ml-[3%] mt-1 text-sm md:text-base">
+                                    <p className="mt-2 text-sm md:text-base">
                                         {item.text}
                                     </p>
                                 </div>
@@ -65,10 +66,10 @@ export function TourMainBlock() {
                         <>
                             {data.en.description.map((item, index) => (
                                 <div key={index}>
-                                    <p className="text-2xl font-bold text-[#FFB800]">
+                                    <p className="text-2xl md:text-3xl font-bold text-[#FFB800]">
                                         {item.header}
                                     </p>
-                                    <p className="md:ml-[3%] mt-1 text-sm md:text-base">
+                                    <p className="mt-2 text-sm md:text-base">
                                         {item.text}
                                     </p>
                                 </div>
@@ -79,10 +80,10 @@ export function TourMainBlock() {
                         <>
                             {data.de.description.map((item, index) => (
                                 <div key={index}>
-                                    <p className="text-2xl font-bold text-[#FFB800]">
+                                    <p className="text-2xl md:text-3xl font-bold text-[#FFB800]">
                                         {item.header}
                                     </p>
-                                    <p className="md:ml-[3%] mt-1 text-sm md:text-base">
+                                    <p className="mt-2 text-sm md:text-base">
                                         {item.text}
                                     </p>
                                 </div>
@@ -278,8 +279,8 @@ export function TourMainBlock() {
                 {/* ROTATING TEXT BLOCK */}
 
                 {/* <Divider /> */}
-                <div className="my-10 md:my-15 flex flex-col gap-14 text-center">
-                    <p className="text-2xl md:text-4xl">
+                <Card className="my-10 md:my-15 flex flex-col gap-14 text-center py-6" shadow="sm">
+                    <p className="text-2xl md:text-4xl font-bold">
                         {g('rotateTitle')}
                     </p>
                     {locale == "ru" && (
@@ -321,16 +322,16 @@ export function TourMainBlock() {
                             ]}
                         />
                     )}
-                </div>
+                </Card>
 
                 {/* QUESTIONS BLOCK */}
 
                 {/* <Divider /> */}
-                <div className="my-10 md:my-15 text-center">
+                <div className="my-10 md:my-16 text-center p-6">
                     <p className="text-2xl md:text-4xl font-bold m-auto">{g('frequentlyAskedQuestions')}</p>
                     <div className="text-left">
                         {locale == "ru" && (
-                            <Accordion variant="shadow" className="mt-10 md:mt-16">
+                            <Accordion variant="light" className="mt-8 md:mt-14">
                                 {data.ru.frequentlyAskedQuestions.map((question, index) => (
                                     <AccordionItem
                                         key={index}
@@ -348,7 +349,7 @@ export function TourMainBlock() {
                             </Accordion>
                         )}
                         {locale == "en" && (
-                            <Accordion variant="shadow" className="mt-10 md:mt-16">
+                            <Accordion variant="light" className="mt-8 md:mt-14">
                                 {data.en.frequentlyAskedQuestions.map((question, index) => (
                                     <AccordionItem
                                         key={index}
@@ -366,7 +367,7 @@ export function TourMainBlock() {
                             </Accordion>
                         )}
                         {locale == "de" && (
-                            <Accordion variant="shadow" className="mt-10 md:mt-16">
+                            <Accordion variant="light" className="mt-8 md:mt-14">
                                 {data.de.frequentlyAskedQuestions.map((question, index) => (
                                     <AccordionItem
                                         key={index}
@@ -389,11 +390,16 @@ export function TourMainBlock() {
 
                 {/* CONTACT US BLOCK */}
 
-                <div className="my-10 md:my-16 h-[450px] hidden md:grid grid-cols-1 md:grid-cols-5 gap-10">
-                    <Card className="relative flex w-full items-center justify-center overflow-hidden rounded-lg md:shadow-xl">
-                        <div className="flex flex-col col-span-1 justify-between p-4 gap-[70px] text-center">
-                            <p>{g('tourName')} : <Spacer /> <span className="font-bold text-lg">{data.titleEN}</span> </p>
-                            <p>{g('tourDates')} : <Spacer />
+                <div className="my-10 md:my-16 h-[450px] hidden md:grid grid-cols-1 md:grid-cols-5 gap-2">
+                    <Card className="relative flex w-full items-center justify-center overflow-hidden rounded-lg" shadow="sm">
+                        <div className="flex flex-col col-span-1 justify-between p-4 gap-[70px]">
+                            <div>
+                                <p className="font-bold text-2xl md:text-3xl">
+                                    {data.titleEN.toUpperCase()}
+                                </p>
+                                <p className={`${EspaExtended.className} text-[#FFB800] text-xl md:text-2xl font-bold`}>{data.slogan.toUpperCase()}</p>
+                            </div>
+                            <p className="text-xs">{g('tourDates')} : <Spacer />
                                 {locale == "ru" && (
                                     <span className="font-bold text-lg">
                                         {data.ru.tourDates}
@@ -410,7 +416,7 @@ export function TourMainBlock() {
                                     </span>
                                 )}
                             </p>
-                            <p>{g('tourCost')} : <Spacer /><span className="font-bold text-lg">{data.tourCostSOM} {g('som')}/{data.tourCostDL}</span></p>
+                            <p className="text-xs">{g('tourCost')} : <Spacer /><span className="font-bold text-lg text-[#FFB800]">{data.tourCostSOM} {g('som')}/{data.tourCostDL}</span></p>
                         </div>
                     </Card>
                     <Card className="col-span-2">
@@ -429,67 +435,72 @@ export function TourMainBlock() {
                             </p>
                             {locale == "ru" && (
                                 <Link
-                                href="https://b24-wzkh1r.bitrix24site.ru/crm_form_vapyx/"
+                                    href="https://b24-wzkh1r.bitrix24site.ru/crm_form_vapyx/"
                                     target="_blank"
                                     className="w-full text-center"
                                 >
                                     <Button
                                         className="bg-stone-950 hover:bg-stone-800 w-full text-white"
                                     >
-                                        {g('callMe')}
+                                        {g('becomeaMember')}!
                                     </Button>
                                 </Link>
                             )}
                            {locale == "en" && (
                                 <Link
-                                href="https://b24-wzkh1r.bitrix24site.ru/crm_form_p87ky/"
+                                    href="https://b24-wzkh1r.bitrix24site.ru/crm_form_p87ky/"
                                     target="_blank"
                                     className="w-full text-center"
                                 >
                                     <Button
                                         className="bg-stone-950 hover:bg-stone-800 w-full text-white"
                                     >
-                                        {g('callMe')}
+                                        {g('becomeaMember')}!
                                     </Button>
                                 </Link>
                             )}
                             {locale == "de" && (
                                 <Link
-                                href="https://b24-wzkh1r.bitrix24site.ru/crm_form_dhorp/"
+                                    href="https://b24-wzkh1r.bitrix24site.ru/crm_form_dhorp/"
                                     target="_blank"
                                     className="w-full text-center"
                                 >
                                     <Button
                                         className="bg-stone-950 hover:bg-stone-800 w-full text-white"
                                     >
-                                        {g('callMe')}
+                                        {g('becomeaMember')}!
                                     </Button>
                                 </Link>
                             )} 
                     </Card>
                 </div>
                 <div className="mt-10 flex flex-col md:hidden gap-10">
-                    <Card className="relative flex h-[500px] w-full items-center justify-center overflow-hidden rounded-lg border-none md:shadow-xl">
-                        <div className="flex flex-col col-span-1 justify-between p-4 gap-[70px] text-center">
-                            <p className="text-xl">{g('tourName')} : <Spacer /> <span className="font-bold">{data.titleEN}</span> </p>
-                            <p className="text-xl">{g('tourDates')} : <Spacer />
+                    <Card className="relative flex py-6 w-full items-center justify-center overflow-hidden rounded-lg border-none md:shadow-xl">
+                        <div className="flex flex-col col-span-1 gap-8 justify-between text-center">
+                            <div>
+                                <p className="font-bold text-3xl">
+                                    {data.titleEN.toUpperCase()}
+                                </p>
+                                <p className={`${EspaExtended.className} text-[#FFB800] text-2xl font-bold`}>{data.slogan.toUpperCase()}</p>
+                            </div>
+                            <p className="text-sm">{g('tourDates')} : <Spacer />
                                 {locale == "ru" && (
-                                    <span className="font-bold">
+                                    <span className="font-bold text-xl">
                                         {data.ru.tourDates}
                                     </span>
                                 )}
                                 {locale == "en" && (
-                                    <span className="font-bold">
+                                    <span className="font-bold text-xl">
                                         {data.en.tourDates}
                                     </span>
                                 )}
                                 {locale == "de" && (
-                                    <span className="font-bold">
+                                    <span className="font-bold text-xl">
                                         {data.de.tourDates}
                                     </span>
                                 )}
                             </p>
-                            <p className="text-xl">{g('tourCost')} : <Spacer /><span className="font-bold">{data.tourCostSOM} {g('som')}/{data.tourCostDL}</span></p>
+                            <p className="text-sm">{g('tourCost')} : <Spacer /><span className="font-bold text-xl text-[#FFB800]">{data.tourCostSOM} {g('som')}/{data.tourCostDL}</span></p>
                         </div>
                     </Card>
                     <Card className="flex flex-col gap-5 md:gap-3 justify-between text-center rounded-xl bg-[#FFB800] p-6 md:p-10">
@@ -508,7 +519,7 @@ export function TourMainBlock() {
                                     <Button
                                         className="bg-stone-950 hover:bg-stone-800 w-full text-white"
                                     >
-                                        {g('callMe')}
+                                        {g('becomeaMember')}!
                                     </Button>
                                 </Link>
                             )}
@@ -521,7 +532,7 @@ export function TourMainBlock() {
                                     <Button
                                         className="bg-stone-950 hover:bg-stone-800 w-full text-white"
                                     >
-                                        {g('callMe')}
+                                        {g('becomeaMember')}!
                                     </Button>
                                 </Link>
                             )}
@@ -534,7 +545,7 @@ export function TourMainBlock() {
                                     <Button
                                         className="bg-stone-950 hover:bg-stone-800 w-full text-white"
                                     >
-                                        {g('callMe')}
+                                        {g('becomeaMember')}!
                                     </Button>
                                 </Link>
                             )} 
@@ -543,7 +554,7 @@ export function TourMainBlock() {
 
                 {/* REVIEWS BLOCK */}
 
-                <div className="my-10 md:my-15">
+                <div className="my-10 md:my-15 text-center">
                     <p className="text-2xl md:text-4xl font-bold m-auto">{g('reviewsTitle')}</p>
                     <ReviewsBlock />
                 </div>

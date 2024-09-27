@@ -1,10 +1,12 @@
 import NumberTicker from "@/components/magicui/number-ticker";
 import PulsatingButton from "@/components/magicui/pulsating-button";
-import { Button } from "@/components/ui/button";
+import { Button } from "@nextui-org/react";
 import { Chip } from "@nextui-org/react";
 import { ChevronDown, PhoneCall } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { pageData as data } from "./tourData/tourData";
+import { EspaExtended } from "@/app/ui/fonts";
+import Link from "next/link";
 
 export function TourTitle() {
     const g = useTranslations("General")
@@ -12,93 +14,130 @@ export function TourTitle() {
 
 
     return(
-        <div className={`w-full h-svh flex place-content-center bg-no-repeat bg-cover bg-bottom bg-[url('https://img.goodfon.com/original/1920x1200/3/35/les-gory-zima-sneg-derevia-domik-noch-nebo-luna.jpg')]`}>
-            <div className="text-white flex flex-col gap-8 mt-[28%] md:mt-[13%] items-center text-center">
-                <p className="text-4xl md:text-6xl font-bold">{data.titleEN}</p>
-                <div className="bg-black/10 md:bg-black/30 mx-5 md:mx-0 backdrop-blur-md rounded-2xl px-4 py-2 max-w-max">
-                    <p className="text-stone-100 text-md md:text-lg">
-                        {locale == "ru" && (
-                            data.ru.titleText
-                        )}
-                        {locale == "en" && (
-                            data.en.titleText
-                        )}
-                        {locale == "de" && (
-                            data.de.titleText
-                        )}
-                    </p>
-                </div>
-                <div>
-                    <ul className="flex flex-col md:flex-row items-center gap-5 text-sm md:text-lg">
-                        <li>
-                            <Chip 
-                                variant="dot"
-                                color="warning"
-                                className="text-white border-2 px-4 bg-black/10 md:bg-black/30 border-black/5 backdrop-blur-md"
-                            >
+        <div className={`w-full h-svh flex place-content-center bg-no-repeat bg-cover bg-bottom bg-[url('https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/%20main.jpg')]`}>
+            <div className="w-full h-full backdrop-brightness-50">
+                <div className="text-white flex flex-col gap-8 md:gap-14 mt-[28%] md:mt-[13%] items-center text-center">
+                    <div className="flex flex-col md:flex-row items-center gap-2">
+                        <div className="border-b-3 pb-2 md:border-b-0 md:pb-0 md:border-r-3 md:pr-2">
+                            <p className="text-4xl md:text-5xl font-bold">{data.titleEN.toUpperCase()}</p>
+                            <p className={`${EspaExtended.className} text-[#FFB800] text-3xl md:text-4xl font-bold`}>{data.slogan.toUpperCase()}</p>
+                        </div>
+                        <div>
+                            <p className="text-white font-bold text-4xl md:text-8xl">
                                 {locale == "ru" && (
-                                    data.ru.chips.first
+                                    data.ru.place.toUpperCase()
                                 )}
                                 {locale == "en" && (
-                                    data.en.chips.first
+                                    data.en.place.toUpperCase()
                                 )}
                                 {locale == "de" && (
-                                    data.de.chips.first
+                                    data.de.place.toUpperCase()
                                 )}
-                            </Chip>
-                        </li>
-                        <li>
-                            <Chip 
-                                variant="dot"
-                                color="warning"
-                                className="text-white border-2 px-4 bg-black/10 md:bg-black/30 border-black/5 backdrop-blur-md"
-                            >
-                                {locale == "ru" && (
-                                    data.ru.chips.second
-                                )}
-                                {locale == "en" && (
-                                    data.en.chips.second
-                                )}
-                                {locale == "de" && (
-                                    data.de.chips.second
-                                )}
-                            </Chip>
-                        </li>
-                        <li>
-                            <Chip 
-                                variant="dot"
-                                color="warning"
-                                className="text-white border-2 px-4 bg-black/10 md:bg-black/30 border-black/5 backdrop-blur-md"
-                            >
-                                {locale == "ru" && (
-                                    data.ru.chips.third
-                                )}
-                                {locale == "en" && (
-                                    data.en.chips.third
-                                )}
-                                {locale == "de" && (
-                                    data.de.chips.third
-                                )}
-                            </Chip>
-                        </li>
-                    </ul>
-                </div>
-                {/* <div className="flex flex-col md:flex-row gap-5">
-                    <Button 
-                        variant="outline"
-                        size="sm" 
-                        className="hover:bg-[#FFB800] text-black md:max-w-sm hover:text-white hover:border-[#FFB800] dark:bg-[#ffffff] dark:text-black dark:hover:bg-[#FFB800]" 
-                    >
-                        {g('readMore')}
-                        <ChevronDown className="stroke-[1.5px]" />
-                    </Button>
-                    <PulsatingButton className="bg-[#FFB800]    " pulseColor="#FFB800">
-                        <p className="flex gap-2 items-center">
-                            {g('contactUs')}
-                            <PhoneCall className="w-4 h-4 stroke-[1.5px]" />
+                            </p>
+                        </div>
+                    </div>
+                    <div className="mx-5 md:mx-0 px-4 py-2 max-w-max">
+                        <p className="text-white text-md md:text-2xl">
+                            {locale == "ru" && (
+                                data.ru.titleText
+                            )}
+                            {locale == "en" && (
+                                data.en.titleText
+                            )}
+                            {locale == "de" && (
+                                data.de.titleText
+                            )}
                         </p>
-                    </PulsatingButton>
-                </div> */}
+                    </div>
+                    <div>
+                        <ul className="flex flex-col md:flex-row items-center gap-5">
+                            <li>
+                                <Chip 
+                                    variant="dot"
+                                    color="warning"
+                                    className="text-white border-2 px-4 bg-white/10 md:bg-white/30 border-white/30 backdrop-blur-md text-sm md:text-base"
+                                >
+                                    {locale == "ru" && (
+                                        data.ru.chips.first
+                                    )}
+                                    {locale == "en" && (
+                                        data.en.chips.first
+                                    )}
+                                    {locale == "de" && (
+                                        data.de.chips.first
+                                    )}
+                                </Chip>
+                            </li>
+                            <li>
+                                <Chip 
+                                    variant="dot"
+                                    color="warning"
+                                    className="text-white border-2 px-4 bg-white/10 md:bg-white/30 border-white/30 backdrop-blur-md text-sm md:text-base"
+                                >
+                                    {locale == "ru" && (
+                                        data.ru.chips.second
+                                    )}
+                                    {locale == "en" && (
+                                        data.en.chips.second
+                                    )}
+                                    {locale == "de" && (
+                                        data.de.chips.second
+                                    )}
+                                </Chip>
+                            </li>
+                            <li>
+                                <Chip 
+                                    variant="dot"
+                                    color="warning"
+                                    className="text-white border-2 px-4 bg-white/10 md:bg-white/30 border-white/30 backdrop-blur-md text-sm md:text-base"
+                                >
+                                    {locale == "ru" && (
+                                        data.ru.chips.third
+                                    )}
+                                    {locale == "en" && (
+                                        data.en.chips.third
+                                    )}
+                                    {locale == "de" && (
+                                        data.de.chips.third
+                                    )}
+                                </Chip>
+                            </li>
+                        </ul>
+                    </div>
+                    {locale == "ru" && (
+                        <Button 
+                            color="warning" 
+                            className="text-white mt-6"
+                            as={Link}
+                            target="_blank"
+                            href="https://b24-wzkh1r.bitrix24site.ru/crm_form_vapyx/"
+                        >
+                            {g('becomeaMember')}
+                        </Button>
+                    )}
+                    {locale == "en" && (
+                        <Button 
+                            color="warning" 
+                            className="text-white mt-6"
+                            as={Link}
+                            target="_blank"
+                            href="https://b24-wzkh1r.bitrix24site.ru/crm_form_p87ky/"
+                        >
+                            {g('becomeaMember')}
+                        </Button>
+                    )}
+                    {locale == "de" && (
+                        <Button 
+                            color="warning" 
+                            className="text-white mt-6"
+                            as={Link}
+                            target="_blank"
+                            href="https://b24-wzkh1r.bitrix24site.ru/crm_form_dhorp/"
+                        >
+                            {g('becomeaMember')}
+                        </Button>
+                    )}
+                </div>
             </div>
         </div>
     )

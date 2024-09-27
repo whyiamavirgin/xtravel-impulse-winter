@@ -1,12 +1,14 @@
 export const pageData = {
     logoLight: "https://xtravel.kg/wp-content/uploads/2024/03/Mask-group.png",
     logoDark: "https://xtravel.kg/wp-content/uploads/2024/03/2023-11-03_02-02-38-removebg-1.png",
-    titleEN: "Impulse - Design Your Life",
+    titleEN: "Impulse",
+    slogan: "Design Your Life",
     titleRU: "ИМПУЛЬСИВНАЯ СТИПЕНДИАЛЬНАЯ ПРОГРАММА",
     tourCostSOM: "99000",
     tourCostDL: "1200$",
     ru: {
         titleText: "4-дневный ретрит в сердце природы Чон-Кемина!",
+        place: "Чон-Кемин",
         tourDates: "30.01-02.02.2025",
         chips: {
             first: "Захватывающие приключения",
@@ -89,7 +91,8 @@ export const pageData = {
         ]
     },
     en: {
-        titleText: "A 4-day retreat in the heart of Jeong-Kemin nature!",
+        titleText: "A 4-day retreat in the heart of Chon-Kemin nature!",
+        place: "Chon-Kemin",
         tourDates: "30.01-02.02.2025",
         chips: {
             first: "Exciting adventures",
@@ -169,6 +172,7 @@ export const pageData = {
     },
     de: {
         titleText: "Viertägiges-Retreat im Herzen der Natur - Tschon-Kemin",
+        place: "Tschon-Kemin",
         tourDates: "30.01-02.02.2025",
         chips: {
             first: "Spannende Abenteuer",
