@@ -91,12 +91,6 @@ export function TourMainBlock() {
                         </>
                     )}
                 </div>
-                {/* <img 
-                    src="https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-13_00-11-55.jpg" 
-                    alt="second"
-                    className="w-[90%] m-auto rounded-2xl transition ease-in-out duration-250 hover:scale-105"
-                    style={{ aspectRatio: "300/200" }} 
-                /> */}
                 <MainPageCarousel />
             </div>
 
@@ -421,7 +415,7 @@ export function TourMainBlock() {
                     </Card>
                     <Card className="col-span-2">
                         <img 
-                            src="https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:47:08.jpg" 
+                            src="http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo3.jpg" 
                             alt="callMe" 
                             className="w-full h-full object-cover"
                         />

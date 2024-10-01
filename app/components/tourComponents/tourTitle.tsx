@@ -14,7 +14,7 @@ export function TourTitle() {
 
 
     return(
-        <div className={`w-full h-svh flex place-content-center bg-no-repeat bg-cover bg-bottom bg-[url('https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/%20main.jpg')]`}>
+        <div className={`w-full h-svh flex place-content-center bg-no-repeat bg-cover bg-bottom bg-[url('http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/first.jpeg')]`}>
             <div className="w-full h-full backdrop-brightness-50">
                 <div className="text-white flex flex-col gap-8 md:gap-14 mt-[28%] md:mt-[13%] items-center text-center">
                     <div className="flex flex-col md:flex-row items-center gap-2">

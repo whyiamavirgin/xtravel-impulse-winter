@@ -270,10 +270,10 @@ export const tourProgram = {
                     text: "Вечером — первый шаг к изменениям с нашим стартовым заданием."
                 }
             ],
-            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:45:32.jpg",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:46:11.jpg",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:44:37.jpg",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/2024-09-24%2010.41.41.jpg"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo1.jpg",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo2.jpg",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo4.jpg"
         },
         {
             day: 2,
@@ -290,10 +290,10 @@ export const tourProgram = {
                     text: "Вечером — неформальное общение, свободное время и отдых."
                 }
             ],
-            photo1: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3043.PNG",
-            photo3: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3041.PNG"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo1.jpg",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo2.png",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo4.png"
         },
         {
             day: 3,
@@ -313,10 +313,10 @@ export const tourProgram = {
                     text: "Вечер завершится приятным ужином и душевными разговорами."
                 }
             ],
-            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2991.JPG",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3010.JPG",
-            photo3: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3035.JPG"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo1.jpg",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo2.jpg",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo4.jpg"
         },
         {
             day: 4,
@@ -330,10 +330,10 @@ export const tourProgram = {
                     text: "После обеда отправимся в Бишкек, где вас ждет финальный ужин и отель, либо трансфер в аэропорт для тех, кто готов вернуться домой обновленным."
                 }
             ],
-            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:47:08.jpg",
-            photo4: "https://i.pinimg.com/originals/26/b5/ae/26b5aeb0e779e099f0884ab788c278d0.jpg"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo1.png",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo2.png",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo4.jpg"
         }
     ],
     en: [
@@ -355,10 +355,10 @@ export const tourProgram = {
                     text: "In the evening, the first step towards changes with our starting task."
                 }
             ],
-            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:45:32.jpg",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:46:11.jpg",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:44:37.jpg",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/2024-09-24%2010.41.41.jpg"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo1.jpg",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo2.jpg",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo4.jpg"
         },
         {
             day: 2,
@@ -375,10 +375,10 @@ export const tourProgram = {
                     text: "In the evening — informal communication, free time and rest."
                 }
             ],
-            photo1: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3043.PNG",
-            photo3: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3041.PNG"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo1.jpg",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo2.png",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo4.png"
         },
         {
             day: 3,
@@ -398,10 +398,10 @@ export const tourProgram = {
                     text: "The evening ended with a pleasant dinner and sincere conversations."
                 }
             ],
-            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2991.JPG",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3010.JPG",
-            photo3: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3035.JPG"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo1.jpg",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo2.jpg",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo4.jpg"
         },
         {
             day: 4,
@@ -415,10 +415,10 @@ export const tourProgram = {
                     text: "After lunch, we will go to Bishkek, where you will have a final dinner and a hotel, or a transfer to the airport for those who are ready to return home refreshed."
                 }
             ],
-            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:47:08.jpg",
-            photo4: "https://i.pinimg.com/originals/26/b5/ae/26b5aeb0e779e099f0884ab788c278d0.jpg"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo1.png",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo2.png",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo4.jpg"
         }
     ],
     de: [
@@ -443,10 +443,10 @@ export const tourProgram = {
                     text: "Am Abend bekommen Sie die erste Aufgabe - der erste Schritt zur Veränderung."
                 }
             ],
-            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:45:32.jpg",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:46:11.jpg",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:44:37.jpg",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/2024-09-24%2010.41.41.jpg"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo1.jpg",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo2.jpg",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo4.jpg"
         },
         {
             day: 2,
@@ -466,10 +466,10 @@ export const tourProgram = {
                     text: "Am Abend - Freizeit und lockere Kommunikation."
                 }
             ],
-            photo1: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3043.PNG",
-            photo3: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3041.PNG"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo1.jpg",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo2.png",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo4.png"
         },
         {
             day: 3,
@@ -486,10 +486,10 @@ export const tourProgram = {
                     text: "Am Abend ist ein köstliches Essen und angenehme Gesellschaft geplant."
                 }
             ],
-            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2991.JPG",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3010.JPG",
-            photo3: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200",
-            photo4: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3035.JPG"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo1.jpg",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo2.jpg",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo4.jpg"
         },
         {
             day: 4,
@@ -503,53 +503,53 @@ export const tourProgram = {
                     text: "Am Nachmittag kommen wir nach Bischkek zurück, wo Sie Abschiedsessen und Hotel erwartet. ( Oder Transfer zum Flughafen, wenn man schon zu Return zu neuem Leben bereit ist)"
                 }
             ],
-            photo1: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG",
-            photo2: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG",
-            photo3: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMAGE%202024-09-24%2010:47:08.jpg",
-            photo4: "https://i.pinimg.com/originals/26/b5/ae/26b5aeb0e779e099f0884ab788c278d0.jpg"
+            photo1: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo1.png",
+            photo2: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo2.png",
+            photo3: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo3.jpg",
+            photo4: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo4.jpg"
         }
     ],
 }
 
 export const CarouselData = [
     {
-        image: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo3.jpg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/2024-09-24%2010.41.41.jpg"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day1photo4.jpg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3043.PNG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo2.png"
     },
     {
-        image: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo3.jpg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3041.PNG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo4.png"
     },
     {
-        image: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo1.jpg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3010.JPG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo2.jpg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo1.png"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-13_00-11-55.jpg"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/gallery/gallery2.jpg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-12_21-11-54.jpg"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/gallery/gallery3.jpg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/main.webp"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/gallery/gallery4.webp"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo2.png"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2988.JPG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/gallery/gallery5.jpeg"
     }
 ]
 
@@ -557,82 +557,82 @@ export const Reviews = {
     ru: [
         {
             name: "Денис",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-22-28.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review1.jpg",
             review: "Я в полном восторге от места, где мы оказались. Формат обучения стал для меня настоящим открытием. Никогда бы не подумал, что смогу испытать такие эмоции, встретить удивительных людей и глубже понять себя. Уверен, что это событие сыграло важную роль в моей жизни."
         },
         {
             name: "Евгений",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-45-30.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review2.jpg",
             review: "Место для проведения этого мероприятия было выбрано идеально. Съехались сильные и интересные личности, которые ещё больше сблизились. Произошёл удивительный обмен знаниями и опытом, каждый открылся и поделился своими внутренними переживаниями. Уверен, что все участники вынесли для себя массу нового и полезного. Огромная благодарность организаторам за такую возможность!"
         },
         {
             name: "Демьян",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-51-55.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review3.jpg",
             review: "Прежде всего, хочу настоятельно порекомендовать программу 'Импульс'. Когда я ехал сюда, была мысль, что эта программа изменит жизнь, разделив её на 'до' и 'после'. Теперь, по завершении, ясно, что её ценность и значимость невозможно ни недооценить, ни переоценить. Душа ликует, а в голове наконец-то наступил порядок — стало понятно, как, что и зачем делать дальше в своём будущем."
         },
         {
             name: "Иван",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_14-00-22.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review4.jpg",
             review: "Жалею, что не прошёл эту программу пять лет назад. Она задаёт важные вопросы, помогает определить правильные ориентиры и ставить цели на многие годы вперёд. Благодаря программе мои разрозненные мысли обрели форму в документе, который чётко показывает, какие шаги нужно делать дальше. Я не знаю ничего, что могло бы лучше помочь в структурировании жизни. Огромная благодарность организаторам за потрясающую природу, отличную еду и массу положительных эмоций"
         },
         {
             name: "Дмитрий",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-00-10.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review5.jpg",
             review: "Программа 'Импульс' вдохновила меня, подсветила многие моменты, на которые я раньше не обращал внимания. Сейчас есть над чем поработать, над чем подумать. В целом всё очень понравилось, но больше всего вдохновило окружение. Люди, которые были вокруг, оказали на меня неизгладимое впечатление. Вместе мы прожили эти чудесные 4 дня."
         },
         {
             name: "Мурат",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-16-20.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review6.jpg",
             review: "Мега много положительных эмоций! Пересмотрел свою жизнь, выстроил план на следующие несколько лет. Выражаю большую благодарность организаторам, за возможность поучаствовать в таком ретрите и испытать столько эмоций."
         }
     ],
     en: [
         {
             name: "Denis",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-22-28.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review1.jpg",
             review: "I am absolutely delighted with the place where we are. The training format was a real discovery for me. I never would have thought that I would be able to experience such emotions, meet amazing people and understand myself more deeply. I am sure that this event has played an important role in my life."
         },
         {
             name: "Evgeniy",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-45-30.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review2.jpg",
             review: "The venue for this event was chosen perfectly. Strong and interesting personalities gathered, who became even closer. There was an amazing exchange of knowledge and experience, everyone opened up and shared their inner experiences. I am sure that all the participants learned a lot of new and useful things. Many thanks to the organizers for this opportunity!"
         },
         {
             name: "Demyan",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-51-55.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review3.jpg",
             review: "First of all, I would like to strongly recommend the Impulse program. When I was coming here, I had the idea that this program would change my life by dividing it into 'before' and 'after'. Now, upon completion, it is clear that its value and significance cannot be underestimated or overestimated. My soul is rejoicing, and order has finally come to my head - it became clear how, what and why to do next in my future."        },
         {
             name: "Ivan",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_14-00-22.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review4.jpg",
             review: "I regret that I did not complete this program five years ago. She asks important questions, helps to determine the right guidelines and set goals for many years to come. Thanks to the program, my scattered thoughts took shape in a document that clearly shows what steps need to be taken next. I do not know anything that could help better in structuring life. Many thanks to the organizers for the amazing nature, great food and a lot of positive emotions"        },
         {
             name: "Dmitry",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-00-10.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review5.jpg",
             review: "The 'Impulse' program inspired me, highlighted many points that I hadn't paid attention to before. Now there is something to work on, something to think about. In general, I liked everything very much, but the environment inspired me the most. The people who were around made a lasting impression on me. We lived these wonderful 4 days together."        },
         {
             name: "Murat",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-16-20.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review6.jpg",
             review: "Mega many positive emotions! I reviewed my life and made a plan for the next few years. I would like to express my gratitude to the organizers for the opportunity to participate in such a retreat and experience so many emotions."        }
     ],
     de: [
         {
             name: "Denis",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-22-28.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review1.jpg",
             review: "Ich war vom Ort absolut fasziniert. Lernkonzept kam deutlich zum Ausdruck.  Ich hätte nie gedacht, dass ich solche Gefühle erfahren kann, dass ich hier interessante Leute kennenlerne und eigene ich verstehe. Ich bin sicher- dieses Erlebnis spielt in meinem Leben eine große Rolle."
         },
         {
             name: "Eugene",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-45-30.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review2.jpg",
             review: "Der Ort war ideal gewählt. Da treffen sich starke, interessante Persönlichkeiten. Das war ein interessanter Wissensaustausch, jeder teilt mit der Gruppe eigene Erfahrung. Ich bin sicher - alle Teilnehmer  erfahren viel Neues und Nützliches für sich selber. Danke für so eine Möglichkeit!"
         },
         {
             name: "Demian",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_13-51-55.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review3.jpg",
             review: "Erstens würde ich das Programm 'Impulse' eindringlich empfehlen. Schon unterwegs habe ich gewusst, dass dieser Kurs mein Leben in 'befor' und 'after' teilt. Jetzt, nach dem Abschluss, ist es mir klar, dass seine Bedeutung und Werte man weder überschätzen noch unterschätzen könnte. Mein Geist freut sich: ich brachte meine Gedanken in Ordnung. Es ist mir jetzt klar , wie und was ich weiter machen muss."
         },
         {
             name: "Iwan",
-            photo: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-21_14-00-22.jpg",
+            photo: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/reviews/review4.jpg",
             review: "Ich bedauere, dass ich diesen Kurs vor 5 Jahren nicht besucht habe. Er stellt wichtige Frage, hilft richtige Orientierungspunkte herauszufinden und das Ziel für die Zukunft zu finden. Danke dem Kurs bekamen meine einzelnen Ideen eine fertige Form auf dem Papier, das deutlich zeigt, was man weiter unternehmen muss. Ich weiß nicht, was bei der Lebensordnung besser helfen könnte. Vielen Dank für die Natur, gutes Essen und positive Emotionen"
         },
     ]

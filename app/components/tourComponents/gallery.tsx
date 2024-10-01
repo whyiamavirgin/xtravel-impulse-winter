@@ -3,49 +3,49 @@ import { useTranslations } from "next-intl";
 
 const firstRow = [
     {
-        image: 'https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3035.JPG'
+        image: 'http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo4.jpeg'
     },
     {
-        image: "https://theplanetd.com/images/Eagle-Hunters-Kyrgyzstan-12.jpg"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo3.jpg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3032.JPG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/gallery/gallery1.jpeg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3043.PNG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo2.png"
     },
     {
-        image: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_646c96bcb3c400731288004d_646caab9c9ade01f07bd6658/scale_1200"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo3.jpeg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3041.PNG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo4.png"
     },
     {
-        image: "https://avatars.dzeninfra.ru/get-zen_doc/4366388/pub_63d503a0f86b2d2a1644d695_63d5062142bca67403f1d39a/scale_1200"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day2photo1.jpeg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3010.JPG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day3photo2.jpeg"
     },
 ]
 
 const secondRow = [
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3044.PNG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo1.png"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-13_00-11-55.jpg"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/gallery/gallery2.jpg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/photo_2024-09-12_21-11-54.jpg"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/gallery/gallery3.jpg"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/main.webp"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/gallery/gallery4.webp"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_3045.PNG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/day4photo2.png"
     },
     {
-        image: "https://sravni-admin-spaces.blr1.digitaloceanspaces.com/xtravel-impulse-winter/IMG_2988.JPG"
+        image: "http://xtravel.kg/wp-content/uploads/2024/landings/impulse-winter/gallery/gallery5.jpeg"
     }
 ]
 
