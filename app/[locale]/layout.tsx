@@ -6,6 +6,7 @@ import {getMessages} from 'next-intl/server';
 import { Metadata } from 'next';
 import { Footer } from '../components/footer';
 import { Navbar } from '../components/tourComponents/topNav';
+import { GoogleTagManager } from "@next/third-parties/google"
 
 export const metadata: Metadata = {
     title: "Impulse - Design Your Life",
@@ -25,7 +26,19 @@ export default async function LocaleLayout({
  
   return (
     <html lang={locale}>
+
+      {/* GOOGLE TAG MANAGER START */}
+      <GoogleTagManager gtmId='GTM-52DV2CQB' />
+      {/* GOOGLE TAG MANAGER END */}
+
       <body className={montserrat.className}>
+
+        {/* GOOGLE TAG MANAGER NOSCRIPT START */}
+
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52DV2CQB" height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
+          
+        {/* GOOGLE TAG MANAGER NOSCRIPT START */}
+        
         <NextIntlClientProvider messages={messages}>
             <Providers>
                 {/* <TopNav /> */}
