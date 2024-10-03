@@ -28,14 +28,14 @@ export default async function LocaleLayout({
     <html lang={locale}>
 
       {/* GOOGLE TAG MANAGER START */}
-      <GoogleTagManager gtmId='GTM-52DV2CQB' />
+      <GoogleTagManager gtmId='GTM-N3ZP6QC4' />
       {/* GOOGLE TAG MANAGER END */}
 
       <body className={montserrat.className}>
 
         {/* GOOGLE TAG MANAGER NOSCRIPT START */}
 
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52DV2CQB" height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3ZP6QC4" height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
           
         {/* GOOGLE TAG MANAGER NOSCRIPT START */}
         
