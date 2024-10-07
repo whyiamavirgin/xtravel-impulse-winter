@@ -4,8 +4,8 @@ export const pageData = {
     titleEN: "Impulse",
     slogan: "Design Your Life",
     titleRU: "ИМПУЛЬСИВНАЯ СТИПЕНДИАЛЬНАЯ ПРОГРАММА",
-    tourCostSOM: "99000",
-    tourCostDL: "1200$",
+    tourCostEU: "1099€",
+    tourCostDL: "1190$",
     ru: {
         titleText: "4-дневный ретрит в сердце природы Чон-Кемина!",
         place: "Чон-Кемин",

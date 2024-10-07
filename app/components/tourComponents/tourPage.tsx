@@ -410,7 +410,7 @@ export function TourMainBlock() {
                                     </span>
                                 )}
                             </p>
-                            <p className="text-xs">{g('tourCost')} : <Spacer /><span className="font-bold text-lg text-[#FFB800]">{data.tourCostSOM} {g('som')}/{data.tourCostDL}</span></p>
+                            <p className="text-xs">{g('tourCost')} : <Spacer /><span className="font-bold text-lg text-[#FFB800]">{data.tourCostEU} / {data.tourCostDL}</span></p>
                         </div>
                     </Card>
                     <Card className="col-span-2">
@@ -494,7 +494,7 @@ export function TourMainBlock() {
                                     </span>
                                 )}
                             </p>
-                            <p className="text-sm">{g('tourCost')} : <Spacer /><span className="font-bold text-xl text-[#FFB800]">{data.tourCostSOM} {g('som')}/{data.tourCostDL}</span></p>
+                            <p className="text-sm">{g('tourCost')} : <Spacer /><span className="font-bold text-xl text-[#FFB800]">{data.tourCostEU} / {data.tourCostDL}</span></p>
                         </div>
                     </Card>
                     <Card className="flex flex-col gap-5 md:gap-3 justify-between text-center rounded-xl bg-[#FFB800] p-6 md:p-10">
